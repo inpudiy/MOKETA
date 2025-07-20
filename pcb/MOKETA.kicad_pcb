@@ -130,13 +130,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "0172cada-d851-4a6e-9c12-d1640156a329")
-		(at 255.447619 114.832214 15)
+		(at 249.1399 115.186209 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW23"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "9e0fab49-03ae-42d1-b04a-1c37173bc3fa")
+			(uuid "65cd2fdd-5786-4d8a-9c7b-b06c8351f39d")
 			(effects
 				(font
 					(size 1 1)
@@ -148,7 +148,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "46961b6a-aae7-4e49-9950-a0b758e937d4")
+			(uuid "bd85ae35-11f6-40d1-ad4d-29f99eaafa0d")
 			(effects
 				(font
 					(size 1 1)
@@ -160,7 +160,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77faff9a-db76-44cb-b66f-f2d1cb83af76")
+			(uuid "5bff98d4-55bb-4f10-98ab-d4047d8b2b2c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,7 +172,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "50c8d0c3-39ae-412f-96e3-9d528174838c")
+			(uuid "3079aeaa-0bca-44f0-9c79-1f3ba8f88393")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +346,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -408,7 +408,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -518,7 +518,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -660,13 +660,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "06a00856-316d-41e2-829f-32dc9d8fe4b3")
-		(at 248.732023 163.372819 15)
+		(at 242.424304 163.726814 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW37"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "b7822074-af49-41c9-983e-89602a4166b2")
+			(uuid "c61b07b9-b285-45ff-95c9-567c1a03e64b")
 			(effects
 				(font
 					(size 1 1)
@@ -678,7 +678,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "c5078df8-2727-4371-9ebf-90f8c209727d")
+			(uuid "2bf5a6fd-50f9-447d-9911-b08b054fc97d")
 			(effects
 				(font
 					(size 1 1)
@@ -690,7 +690,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5cb75f73-9545-4455-b231-058a08ac141e")
+			(uuid "91390664-7eb7-4e81-bd44-6b00ab2f1b69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -702,7 +702,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "009ea549-423d-4877-b518-3722a9a8e8ca")
+			(uuid "5a521f92-fc11-449b-9875-dbc92b9c9a53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,7 +876,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -938,7 +938,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1048,7 +1048,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -1190,13 +1190,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "06e33622-bc9f-48b0-9159-05597c065520")
-		(at 235.902605 189.096324 15)
+		(at 229.594886 189.450319 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW42"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "1657a893-530c-4b49-aa59-4409db202e48")
+			(uuid "24c027fa-592f-483f-9677-6f0ebb3e1fdd")
 			(effects
 				(font
 					(size 1 1)
@@ -1208,7 +1208,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "0de38bb1-e4d2-43ce-8169-11e1b6fc2576")
+			(uuid "08f5e12b-1081-4546-92b3-b4a5bd11cc06")
 			(effects
 				(font
 					(size 1 1)
@@ -1220,7 +1220,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b4a286f3-b4ce-435c-b79e-d090d1ba587b")
+			(uuid "56952cde-3020-4508-ba7e-fab547ed0e6b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +1232,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ab313db-dd26-4012-921e-8f9f0adc24c5")
+			(uuid "0c31f195-c151-4dae-bbbb-370e2f50e637")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +1406,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -1468,7 +1468,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1578,7 +1578,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -1947,7 +1947,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -2119,7 +2119,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -2250,13 +2250,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "20567234-4c2b-45ab-9547-054920da0103")
-		(at 342.610049 145.712642 15)
+		(at 336.30233 146.066637 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW39"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "a4f48b0e-b075-4872-9726-486f5d12e7c8")
+			(uuid "c6c00a4c-0fbc-4bb4-b28a-f51173ef1e41")
 			(effects
 				(font
 					(size 1 1)
@@ -2268,7 +2268,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "431e4987-16b4-43be-8076-9fa9095da63f")
+			(uuid "40c5b670-172a-4533-96c9-6be3e72827b2")
 			(effects
 				(font
 					(size 1 1)
@@ -2280,7 +2280,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8844bca-72ad-4f9c-8e19-79e3d99ffafd")
+			(uuid "1fb4b0b7-6a51-41f9-8d54-1ea720936243")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +2292,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "067d32d1-3302-4273-b237-2d7045487ece")
+			(uuid "96d39c1d-edc0-44eb-88a7-899e74584584")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2466,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -2528,7 +2528,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2638,7 +2638,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -2780,13 +2780,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "30664e80-924a-49cc-9e4e-e651ecffeada")
-		(at 297.179896 123.372096 15)
+		(at 290.872177 123.726091 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW30"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "ac9d8678-bd52-44be-87b0-aaafb8ca00b7")
+			(uuid "ef968d66-3f1c-4a41-ba90-5c44ba632968")
 			(effects
 				(font
 					(size 1 1)
@@ -2798,7 +2798,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "d0d8aeee-ab75-4255-b157-b733e78e86c5")
+			(uuid "1f047fa3-e575-4963-9e30-b96b3959e5f5")
 			(effects
 				(font
 					(size 1 1)
@@ -2810,7 +2810,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e8f1c7e-8a84-4c32-8fcb-dd2ae4bfd783")
+			(uuid "a9d53c74-9d39-4640-a619-36af90d9be2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2822,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e0858e7-3a43-494f-9305-9f277bfbb778")
+			(uuid "637e9321-abab-4a3c-814c-04639c2bcca8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +2996,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -3058,7 +3058,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3168,7 +3168,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -3537,7 +3537,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -3709,7 +3709,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -3840,13 +3840,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "3f1efe45-69e3-4abc-8fc7-dd9332b71fd7")
-		(at 292.249393 104.971209 15)
+		(at 285.941674 105.325204 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW24"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "c7c0a902-816e-469d-8cc4-92675ef5df05")
+			(uuid "f6e0a6a3-01a8-4cf7-a40d-555f9394e115")
 			(effects
 				(font
 					(size 1 1)
@@ -3858,7 +3858,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "07016272-b339-4fa1-8b92-ce1558ccaec3")
+			(uuid "99a5109d-e831-4d67-9e8f-360f83d708a3")
 			(effects
 				(font
 					(size 1 1)
@@ -3870,7 +3870,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33b121d2-4b19-4284-9aec-4fec1155e092")
+			(uuid "8e2b922f-bd2b-4e40-8b95-4925576d54af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3882,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e1fd9de-4fb8-495a-8fc1-f97d13ad985a")
+			(uuid "38024291-6cdf-48f0-a4c9-9ccd022bd04a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +4056,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -4118,7 +4118,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4228,7 +4228,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -4597,7 +4597,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -4769,7 +4769,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -4900,13 +4900,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "52acd1e0-b3f4-4439-bd1c-84eedbbae52b")
-		(at 282.476886 142.103264 15)
+		(at 276.169167 142.457259 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW33"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "65660a7d-75d5-4d97-aa9a-fabad08284c1")
+			(uuid "74e12093-cbf0-4093-96e8-8a7692963a07")
 			(effects
 				(font
 					(size 1 1)
@@ -4918,7 +4918,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "f88423f2-4e4b-47f1-b6fd-c20277a37414")
+			(uuid "a9bdf25c-f05e-4805-89a0-d279e97501fb")
 			(effects
 				(font
 					(size 1 1)
@@ -4930,7 +4930,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0a33d5f-ec3b-428f-8528-9fde993aeff6")
+			(uuid "8ee09151-3f36-4c11-b634-6820ebdae5b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +4942,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51c5b077-9ff2-42e0-9099-e0aad2c35a3b")
+			(uuid "0a473d64-90b1-4a1c-8034-6765a662f301")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +5116,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -5178,7 +5178,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5288,7 +5288,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -5430,13 +5430,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "55cbe467-ccf0-439f-aa32-692fd215c511")
-		(at 243.801521 144.971932 15)
+		(at 237.493802 145.325927 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW31"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "b7d3f2dc-bc49-447e-a46a-0f0ab07b8338")
+			(uuid "40725b06-f5ec-4536-80ae-9096b6f650e7")
 			(effects
 				(font
 					(size 1 1)
@@ -5448,7 +5448,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "818c2c43-6bd7-4c9b-a36c-9770fe93e5a7")
+			(uuid "f341d804-c770-496b-95ba-271986aafb8c")
 			(effects
 				(font
 					(size 1 1)
@@ -5460,7 +5460,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b4b035b-eddc-4f32-970a-959f809a3ae6")
+			(uuid "f114b67c-652f-4fca-8685-22f0289ee59c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +5472,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3741d556-b712-4ea5-a841-ee2afb6627e1")
+			(uuid "27a1117b-6470-4352-bb79-3d6250208c3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +5646,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -5708,7 +5708,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5818,7 +5818,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -6187,7 +6187,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -6359,7 +6359,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -6717,7 +6717,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -6889,7 +6889,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -7247,7 +7247,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -7419,7 +7419,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -7777,7 +7777,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -7949,7 +7949,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -8307,7 +8307,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -8479,7 +8479,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -8837,7 +8837,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -9009,7 +9009,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -9140,13 +9140,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "82bc94f2-221c-4077-921a-37f6f4ff1887")
-		(at 317.405069 125.249921 15)
+		(at 311.09735 125.603916 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW32"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "a966629f-9bc8-4ce3-80a8-0a1f10b9ae3e")
+			(uuid "468d782e-19b2-4e8f-94c5-9f62a64f5b59")
 			(effects
 				(font
 					(size 1 1)
@@ -9158,7 +9158,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "274e7d41-eac3-457f-813d-3da88670257f")
+			(uuid "362f38ac-0743-4302-9607-42bca7e165fa")
 			(effects
 				(font
 					(size 1 1)
@@ -9170,7 +9170,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "972becb9-3c95-404a-a7e9-00cb61991cea")
+			(uuid "dc0df5dc-a8d5-42b4-874f-45dcc649bfe0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9182,7 +9182,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cdab29fb-b91b-4711-a9c5-d2187832f228")
+			(uuid "e1c35b0c-0b9f-4ffa-94e7-e7c12fdb93fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9356,7 +9356,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -9418,7 +9418,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -9528,7 +9528,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -9670,13 +9670,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "83f812f3-ee79-43e4-a5d4-53cdb2a63854")
-		(at 272.61588 105.30149 15)
+		(at 266.308161 105.655485 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW22"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "e8bdf8b9-af40-480b-9edb-11bca9c28bda")
+			(uuid "6d76ed1f-cccb-4449-a711-458586f8a0d7")
 			(effects
 				(font
 					(size 1 1)
@@ -9688,7 +9688,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "a222afa5-b730-4b16-8894-640ce934f3ec")
+			(uuid "91756546-9024-4259-8e72-3219c966380c")
 			(effects
 				(font
 					(size 1 1)
@@ -9700,7 +9700,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "135d09bc-17d0-4fe6-8463-cdb80c916f6f")
+			(uuid "3dcfa45b-fd0a-4263-8efc-b917d44f06a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,7 +9712,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79c2f610-7a5b-4d57-ab8b-74f263d3013c")
+			(uuid "f0ed0be6-cf4d-401c-ada0-e2dcc30e2f31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9886,7 +9886,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -9948,7 +9948,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10058,7 +10058,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -10200,13 +10200,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "869cd11d-7f10-4130-8db5-28e06c1f3871")
-		(at 270.239127 170.034875 15)
+		(at 263.931408 170.38887 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW40"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "70adf09f-a823-4db9-97b4-7e247177826e")
+			(uuid "037ff841-f736-4021-b3d0-396b3578fa9a")
 			(effects
 				(font
 					(size 1 1)
@@ -10218,7 +10218,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "7521b4e1-7c85-4980-9ab8-bd5658f9b6a9")
+			(uuid "d481b28e-10c3-4a46-b919-98a9cf876261")
 			(effects
 				(font
 					(size 1 1)
@@ -10230,7 +10230,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33d3c8c2-7b35-45a1-a701-93fcef9dc31a")
+			(uuid "7dd55225-8874-4f5e-8fcd-fb8cb0f36ca7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10242,7 +10242,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19dd69d4-810d-47c9-b5c7-e60b912584f6")
+			(uuid "bb7f6abe-495e-4190-a69c-79eac01ff6be")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10416,7 +10416,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -10478,7 +10478,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10588,7 +10588,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -10730,13 +10730,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "887b5705-b3e6-406e-b6ce-6cd143e400b5")
-		(at 337.679547 127.311755 15)
+		(at 331.371828 127.66575 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW34"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "333fea1b-a30b-4923-9966-3b92fb5c2ea4")
+			(uuid "2211b8c6-9a84-44d8-af9e-a3bc0b7002bf")
 			(effects
 				(font
 					(size 1 1)
@@ -10748,7 +10748,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "e550e101-1524-4c22-9908-bf71ef0bc4b5")
+			(uuid "1618066f-7d83-416f-9a05-c50177d116fc")
 			(effects
 				(font
 					(size 1 1)
@@ -10760,7 +10760,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7939f44a-6a05-45a2-a98c-b003b1958bbd")
+			(uuid "3402c46e-fe51-43c0-89aa-7cc025f07d30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10772,7 +10772,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5242bf1d-1207-4c70-856f-ccbe2989d606")
+			(uuid "6fe9fb7a-7006-4271-84cc-ee5c9c7dc6c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10946,7 +10946,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -11008,7 +11008,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11118,7 +11118,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -11260,13 +11260,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "8c0f3368-45e3-4546-9774-ef2459a8c2af")
-		(at 302.110398 141.772983 15)
+		(at 295.802679 142.126978 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW36"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "209b8241-21ba-4941-b238-1bcfa5af7516")
+			(uuid "b9927bb5-84f9-46a6-b30c-0d74535da991")
 			(effects
 				(font
 					(size 1 1)
@@ -11278,7 +11278,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "e145355c-e4c9-404b-a911-a8c8f9f3a32c")
+			(uuid "d770ba4d-4898-45ef-aa4a-56a7cee28930")
 			(effects
 				(font
 					(size 1 1)
@@ -11290,7 +11290,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dccfefe0-c796-4575-96f8-ae8a7bf2c2a3")
+			(uuid "a0ad1ea8-f8d0-4c96-bf6c-641d82119e20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11302,7 +11302,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "181b5503-94a1-4230-897c-80414633df59")
+			(uuid "d1ffce8c-0ab5-48e5-a0aa-9d700ba2f24b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11476,7 +11476,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -11538,7 +11538,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11648,7 +11648,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -12017,7 +12017,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -12189,7 +12189,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -12547,7 +12547,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -12719,7 +12719,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -12850,13 +12850,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "a9b44caa-6587-424c-939f-a60d4cd8624f")
-		(at 253.662526 181.773706 15)
+		(at 247.354807 182.127701 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW41"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "66032784-61bf-4f09-ac26-82119e2a0e0f")
+			(uuid "495049ab-efcf-4e7d-a17d-3fbd20e300e9")
 			(effects
 				(font
 					(size 1 1)
@@ -12868,7 +12868,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "ea089465-4b5f-4f4a-b444-973ea66a4f1a")
+			(uuid "8c71f82c-6c2f-4e66-a615-fb007e27f008")
 			(effects
 				(font
 					(size 1 1)
@@ -12880,7 +12880,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d050ec7-b1c8-45aa-9ac3-114bc11d58fd")
+			(uuid "b7247cb4-27ad-4981-a1ae-489c3dfacdeb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12892,7 +12892,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "44fa9422-28bb-4206-93f3-c50666ae0595")
+			(uuid "e2a249b0-74ea-4be8-af77-f029a4d74fa3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13066,7 +13066,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -13128,7 +13128,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -13238,7 +13238,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -13607,7 +13607,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -13779,7 +13779,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -13910,13 +13910,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "ac341527-e699-42e4-a410-c70acc28d5cd")
-		(at 238.871018 126.571045 15)
+		(at 232.563299 126.92504 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW25"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "f5615cc7-0c6f-433a-9b73-a2742660dabc")
+			(uuid "f48bdfe2-5042-4e65-aa97-5f993372b6b2")
 			(effects
 				(font
 					(size 1 1)
@@ -13928,7 +13928,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "33bcf6ef-aefe-4ed6-9b22-cf0b9987ad39")
+			(uuid "9c01c5ca-2e8e-4c5d-86af-d2c3efc56ccf")
 			(effects
 				(font
 					(size 1 1)
@@ -13940,7 +13940,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56e4d692-c15b-4bc5-91ba-8b7934b483ea")
+			(uuid "e3863f03-06f0-4352-a8b7-d3087d09404c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13952,7 +13952,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e33bc73f-40f2-4360-a617-edd69e8291ac")
+			(uuid "c11082c6-2e5b-4c5d-8d4e-8ac0309a2931")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14126,7 +14126,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -14188,7 +14188,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -14298,7 +14298,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -14667,7 +14667,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -14839,7 +14839,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -15197,7 +15197,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -15369,7 +15369,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -15727,7 +15727,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -15899,7 +15899,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -16030,13 +16030,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "bcda787d-0378-4509-9007-ceb00002fc40")
-		(at 265.308624 151.633988 15)
+		(at 259.000905 151.987983 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW35"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "96bacc94-7d07-49cf-bc2a-30896f6a5e5f")
+			(uuid "2ed85f15-3ffa-4b50-bf3a-0df891bda916")
 			(effects
 				(font
 					(size 1 1)
@@ -16048,7 +16048,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "d229862e-b0f5-40a3-b257-32a4563d25e2")
+			(uuid "87ccea15-9b9f-4e2c-8b4c-db1e82391ca6")
 			(effects
 				(font
 					(size 1 1)
@@ -16060,7 +16060,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a48bc980-fa41-436b-bc40-d249a20cd7f0")
+			(uuid "e91cd32c-9954-44cc-bc3d-554c8a85b077")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16072,7 +16072,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9edd5353-2703-4bab-a580-416eae72ec6d")
+			(uuid "ccac153e-5563-4ff2-958f-173a408842b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16246,7 +16246,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -16308,7 +16308,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -16418,7 +16418,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -16560,13 +16560,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "bdc7e420-bd18-45b3-bbb8-d449918ca2e1")
-		(at 322.335571 143.650808 15)
+		(at 316.027852 144.004803 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW38"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "96df887f-5c84-4ea8-83ed-69ce33f0fb82")
+			(uuid "ccd830cb-9890-4837-9c31-dda153c9ea5d")
 			(effects
 				(font
 					(size 1 1)
@@ -16578,7 +16578,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "4a3a0433-eb86-4982-bed8-c03998bb35fb")
+			(uuid "fe28031c-eb7b-49d2-b2bb-faf7c9de0b76")
 			(effects
 				(font
 					(size 1 1)
@@ -16590,7 +16590,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2bd4f53-9c72-484c-a4df-60746d403887")
+			(uuid "bad740ac-be59-44be-8886-1105fa81e0f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16602,7 +16602,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "348289c8-2358-4efb-9443-cc362141b0d2")
+			(uuid "841102a3-dda0-4954-a0e8-ca4c2ab26f5a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16776,7 +16776,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -16838,7 +16838,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -16948,7 +16948,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -17090,13 +17090,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "c4bc81ef-dfd3-47e3-9532-6ecdedabdfa5")
-		(at 260.378122 133.233101 15)
+		(at 254.070403 133.587096 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW29"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "77fdc213-c1d5-47ec-8c8e-a62ae71cf864")
+			(uuid "50e1a404-753c-4185-a018-b3985b17020f")
 			(effects
 				(font
 					(size 1 1)
@@ -17108,7 +17108,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "7fc99007-162b-41b9-8faf-6a84a8033d04")
+			(uuid "0f5ec3fc-ad57-4510-ad7c-10adda11b6bb")
 			(effects
 				(font
 					(size 1 1)
@@ -17120,7 +17120,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d324753b-8980-414a-a410-bed5c2a1dac3")
+			(uuid "9ddc61e2-ea77-4796-a661-c5e35c1b45f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17132,7 +17132,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d45bcf41-ec77-474f-9fce-daacbf9c398d")
+			(uuid "cdbe2304-e799-434d-9269-e7a07f3e2456")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17306,7 +17306,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -17368,7 +17368,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -17478,7 +17478,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -17847,7 +17847,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -18019,7 +18019,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -18377,7 +18377,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -18549,7 +18549,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -18907,7 +18907,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -19079,7 +19079,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -19210,13 +19210,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "d951672b-c16d-4b65-8bb5-b1146446f676")
-		(at 332.749044 108.910868 15)
+		(at 326.441325 109.264863 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW28"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "2957f723-1fa1-4c85-9777-641918d1e102")
+			(uuid "c2d88038-b311-4376-82ff-b257efee7674")
 			(effects
 				(font
 					(size 1 1)
@@ -19228,7 +19228,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "272bf4d2-f64c-408d-9dce-b58c2934e020")
+			(uuid "9cd26b14-92c4-462c-8fce-c51eb5991b72")
 			(effects
 				(font
 					(size 1 1)
@@ -19240,7 +19240,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20d45b75-3d3a-4137-a3d2-2005c902aa50")
+			(uuid "b8e51201-598a-4e89-a791-3f340b67ddb5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19252,7 +19252,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c70c51d-8a02-4ef1-8948-3d618e10273f")
+			(uuid "b48d22f9-8ea4-494c-b0ab-7ef383023e9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19426,7 +19426,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -19488,7 +19488,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -19598,7 +19598,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -19740,13 +19740,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "e1d99673-c0ee-470e-9cb7-36dbcef83011")
-		(at 312.474566 106.849034 15)
+		(at 306.166847 107.203029 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW26"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "d6b07bda-c24f-4615-9f76-1b8cf061002d")
+			(uuid "f6c98c20-d5e2-4c5c-8c88-d2d1be94f0bb")
 			(effects
 				(font
 					(size 1 1)
@@ -19758,7 +19758,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "e7469ba3-50a9-4ccb-9207-f04ed01c112f")
+			(uuid "1e0ccd5f-1cd2-4459-9529-f08efa083fa3")
 			(effects
 				(font
 					(size 1 1)
@@ -19770,7 +19770,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8075757-8c3e-4aa3-8fb0-a81bd7c26464")
+			(uuid "e72a9d4f-c826-47d0-b07f-82d33cc357f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19782,7 +19782,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "755945b4-c3e7-492f-9f95-cf7034406d64")
+			(uuid "92989517-8f43-465c-b8eb-b12d7dbf1931")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19956,7 +19956,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -20018,7 +20018,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -20128,7 +20128,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -20497,7 +20497,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -20669,7 +20669,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -21027,7 +21027,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -21199,7 +21199,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -21557,7 +21557,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.15)
@@ -21729,7 +21729,7 @@
 		)
 		(fp_arc
 			(start -2.464162 -0.61604)
-			(mid -1.563147 -2.002042)
+			(mid -1.563146 -2.002042)
 			(end 0 -2.54)
 			(stroke
 				(width 0.12)
@@ -21860,13 +21860,13 @@
 	(footprint "moketa:Kailh_socket_MX"
 		(layer "F.Cu")
 		(uuid "fd9218be-3d78-45b7-9428-82446d2757ed")
-		(at 277.546383 123.702377 15)
+		(at 271.238664 124.056372 15)
 		(descr "MX-style keyswitch with Kailh socket mount")
 		(tags "MX,cherry,gateron,kailh,pg1511,socket")
 		(property "Reference" "SW27"
 			(at 0 -8.255 15)
 			(layer "B.SilkS")
-			(uuid "440c5fb9-a04e-4028-b964-6e7053a28afc")
+			(uuid "bc54138e-1cef-48c9-9df2-ab774c890d86")
 			(effects
 				(font
 					(size 1 1)
@@ -21878,7 +21878,7 @@
 		(property "Value" "~"
 			(at 0 8.255 15)
 			(layer "F.Fab")
-			(uuid "12e6a741-1eec-4eef-88dd-6b95ce4ce7fb")
+			(uuid "e31d2bb0-9d20-490e-98d2-c36d0d79ef3a")
 			(effects
 				(font
 					(size 1 1)
@@ -21890,7 +21890,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a2aed37-fb09-4832-a81c-77ac1f97d8f5")
+			(uuid "c2c26721-802b-4748-9a64-f631e20c3b61")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21902,7 +21902,7 @@
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1471da83-f354-43e4-a695-551108d8b922")
+			(uuid "dc56a0a1-1195-4713-86e9-17427cc7011b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22076,7 +22076,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.15)
@@ -22138,7 +22138,7 @@
 		)
 		(fp_line
 			(start -8.89 -3.81)
-			(end -6.350001 -3.81)
+			(end -6.350002 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -22248,7 +22248,7 @@
 		)
 		(fp_arc
 			(start -6.35 -4.445)
-			(mid -5.606052 -6.241052)
+			(mid -5.606053 -6.241052)
 			(end -3.81 -6.985)
 			(stroke
 				(width 0.12)
@@ -22387,16 +22387,148 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_rect
-		(start 70 89.5)
-		(end 355 204)
-		(stroke
-			(width 0.05)
-			(type default)
+	(gr_curve
+		(pts
+			(xy 216.108441 201.085397) (xy 220.477993 201.085397) (xy 224.828701 200.512613) (xy 229.049374 199.381692)
 		)
-		(fill no)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
 		(layer "Edge.Cuts")
-		(uuid "39691741-93b1-4aee-b24c-593bd36faaef")
+		(uuid "0ceca3a2-a37d-4ab2-b060-e9f6991f5b33")
+	)
+	(gr_curve
+		(pts
+			(xy 341.78973 169.173006) (xy 347.124325 167.743501) (xy 350.290036 162.260133) (xy 348.860592 156.925516)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0dcf9d0d-4bb4-4f1e-9e39-c424c92d6ac5")
+	)
+	(gr_curve
+		(pts
+			(xy 333.991391 101.432221) (xy 332.820004 97.060555) (xy 328.858456 94.020631) (xy 324.332577 94.020425)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "457d209f-fa05-4f2e-9239-7dcebc40f8f3")
+	)
+	(gr_curve
+		(pts
+			(xy 202.708722 201.085412) (xy 207.17529 201.085405) (xy 211.641873 201.085397) (xy 216.108441 201.085397)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5171234e-b36e-4300-9aa0-319598d1951e")
+	)
+	(gr_curve
+		(pts
+			(xy 229.049374 199.381692) (xy 266.629483 189.312128) (xy 304.209607 179.24257) (xy 341.78973 169.173006)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5fe8c891-3b56-4425-ad53-11e741d7fcbe")
+	)
+	(gr_curve
+		(pts
+			(xy 69.956388 156.925561) (xy 69.269956 159.487375) (xy 69.629331 162.216951) (xy 70.955441 164.513803)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "77352a46-3f77-4da6-b254-6acaf156d05b")
+	)
+	(gr_curve
+		(pts
+			(xy 84.825587 101.432236) (xy 79.869183 119.930015) (xy 74.912793 138.427785) (xy 69.956388 156.925561)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "88b0351f-ed4a-4053-aef5-898da432cff9")
+	)
+	(gr_curve
+		(pts
+			(xy 70.955441 164.513803) (xy 72.281552 166.810647) (xy 74.465787 168.486627) (xy 77.027615 169.173021)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9ec0d6b0-94f7-421a-b13d-b9e8c87d4f07")
+	)
+	(gr_curve
+		(pts
+			(xy 324.332577 94.020425) (xy 247.716732 94.020425) (xy 171.100888 94.020417) (xy 94.485041 94.020417)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a46a8708-e940-4277-89c1-4455d29c6bd7")
+	)
+	(gr_curve
+		(pts
+			(xy 77.027615 169.173021) (xy 114.607666 179.242578) (xy 152.187718 189.312128) (xy 189.767773 199.381685)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cae092ea-0526-42dc-831f-56c8fbc54f1c")
+	)
+	(gr_curve
+		(pts
+			(xy 348.860592 156.925516) (xy 343.904171 138.427755) (xy 338.947781 119.929985) (xy 333.991391 101.432221)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e801ddb9-38e5-447d-ac11-ac262bbbad77")
+	)
+	(gr_curve
+		(pts
+			(xy 189.767773 199.381685) (xy 193.988438 200.512613) (xy 198.339169 201.085405) (xy 202.708722 201.085412)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e9280709-8d2e-4107-aaa1-f1948f503abf")
+	)
+	(gr_curve
+		(pts
+			(xy 94.485041 94.020417) (xy 89.95891 94.020341) (xy 85.997034 97.060334) (xy 84.825587 101.432236)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ea3b23ac-460a-4d5c-91e2-860dd0306fe1")
 	)
 	(segment
 		(start 162.462541 167.109938)
@@ -22429,6 +22561,17 @@
 		(layer "B.Cu")
 		(net 7)
 		(uuid "e7eaca96-b94b-4a0b-82c3-284d1b726b91")
+	)
+	(group ""
+		(uuid "f3881679-af9d-4c77-9e71-959be2ed7fbf")
+		(members "0ceca3a2-a37d-4ab2-b060-e9f6991f5b33" "0dcf9d0d-4bb4-4f1e-9e39-c424c92d6ac5"
+			"457d209f-fa05-4f2e-9239-7dcebc40f8f3" "5171234e-b36e-4300-9aa0-319598d1951e"
+			"5fe8c891-3b56-4425-ad53-11e741d7fcbe" "77352a46-3f77-4da6-b254-6acaf156d05b"
+			"88b0351f-ed4a-4053-aef5-898da432cff9" "9ec0d6b0-94f7-421a-b13d-b9e8c87d4f07"
+			"a46a8708-e940-4277-89c1-4455d29c6bd7" "cae092ea-0526-42dc-831f-56c8fbc54f1c"
+			"e801ddb9-38e5-447d-ac11-ac262bbbad77" "e9280709-8d2e-4107-aaa1-f1948f503abf"
+			"ea3b23ac-460a-4d5c-91e2-860dd0306fe1"
+		)
 	)
 	(embedded_fonts no)
 )
