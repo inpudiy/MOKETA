@@ -487,7 +487,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -610,7 +610,7 @@
   },
   "sheets": [
     [
-      "031856e0-fbe9-4506-b402-a6a37ede4cc5",
+      "9e45a776-7007-48ff-b543-dc98423173b7",
       "Root"
     ]
   ],
