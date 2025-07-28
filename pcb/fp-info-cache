@@ -1,4 +1,4 @@
-154187215161882
+155940967201915
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -581,7 +581,7 @@ Diode SMPA (DO-221BC)
 2
 2
 moketa
-D_SOD-323
+D_SOD-123
 
 
 0
@@ -615,3 +615,10 @@ U_PRO_MICRO
 0
 24
 24
+moketa
+YS-SK6812MINI-E
+
+
+0
+4
+4

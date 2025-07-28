@@ -2283,7 +2283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 124.968 51.816 0)
 			(effects
 				(font
@@ -2353,7 +2353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 124.968 117.856 0)
 			(effects
 				(font
@@ -2898,7 +2898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 36.068 84.836 0)
 			(effects
 				(font
@@ -2968,7 +2968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 36.068 101.346 0)
 			(effects
 				(font
@@ -3649,7 +3649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 124.968 68.326 0)
 			(effects
 				(font
@@ -3855,7 +3855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 36.068 35.306 0)
 			(effects
 				(font
@@ -3993,7 +3993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 124.968 101.346 0)
 			(effects
 				(font
@@ -4131,7 +4131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 53.848 35.306 0)
 			(effects
 				(font
@@ -4269,7 +4269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 71.628 35.306 0)
 			(effects
 				(font
@@ -4339,7 +4339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 89.408 117.856 0)
 			(effects
 				(font
@@ -4409,7 +4409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 89.408 68.326 0)
 			(effects
 				(font
@@ -4479,7 +4479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 124.968 35.306 0)
 			(effects
 				(font
@@ -4549,7 +4549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 53.848 101.346 0)
 			(effects
 				(font
@@ -4619,7 +4619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 53.848 135.636 0)
 			(effects
 				(font
@@ -4689,7 +4689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 89.408 101.346 0)
 			(effects
 				(font
@@ -4827,7 +4827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 107.188 51.816 0)
 			(effects
 				(font
@@ -5101,7 +5101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 71.628 68.326 0)
 			(effects
 				(font
@@ -5171,7 +5171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 107.188 117.856 0)
 			(effects
 				(font
@@ -5377,7 +5377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 71.628 84.836 0)
 			(effects
 				(font
@@ -5515,7 +5515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 89.408 51.816 0)
 			(effects
 				(font
@@ -5857,7 +5857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 124.968 84.836 0)
 			(effects
 				(font
@@ -5927,7 +5927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 53.848 117.856 0)
 			(effects
 				(font
@@ -5997,7 +5997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 36.068 135.636 0)
 			(effects
 				(font
@@ -6067,7 +6067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 36.068 51.816 0)
 			(effects
 				(font
@@ -6205,7 +6205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 36.068 68.326 0)
 			(effects
 				(font
@@ -6275,7 +6275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 53.848 51.816 0)
 			(effects
 				(font
@@ -6345,7 +6345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 107.188 135.636 0)
 			(effects
 				(font
@@ -6483,7 +6483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 71.628 51.816 0)
 			(effects
 				(font
@@ -6553,7 +6553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 107.188 68.326 0)
 			(effects
 				(font
@@ -6623,7 +6623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 107.188 84.836 0)
 			(effects
 				(font
@@ -6693,7 +6693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 89.408 84.836 0)
 			(effects
 				(font
@@ -6967,7 +6967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 71.628 135.636 0)
 			(effects
 				(font
@@ -7037,7 +7037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 53.848 84.836 0)
 			(effects
 				(font
@@ -7107,7 +7107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 107.188 35.306 0)
 			(effects
 				(font
@@ -7245,7 +7245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 107.188 101.346 0)
 			(effects
 				(font
@@ -7383,7 +7383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 124.968 135.636 0)
 			(effects
 				(font
@@ -7453,7 +7453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 36.068 117.856 0)
 			(effects
 				(font
@@ -7523,7 +7523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 71.628 117.856 0)
 			(effects
 				(font
@@ -7729,7 +7729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 71.628 101.346 0)
 			(effects
 				(font
@@ -7799,7 +7799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 53.848 68.326 0)
 			(effects
 				(font
@@ -7869,7 +7869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 89.408 35.306 0)
 			(effects
 				(font
@@ -7939,7 +7939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:D_SOD-323"
+		(property "Footprint" "moketa:D_SOD-123"
 			(at 89.408 135.636 0)
 			(effects
 				(font
