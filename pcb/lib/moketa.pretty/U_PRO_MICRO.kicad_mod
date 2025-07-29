@@ -52,6 +52,46 @@
 			)
 		)
 	)
+	(fp_line
+		(start -8.9 -16.86)
+		(end -8.9 16.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb583bf3-0e46-4c3a-9460-8eb1319d39ea")
+	)
+	(fp_line
+		(start -8.9 -16.86)
+		(end 8.9 -16.86)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e148c31e-a889-4b88-8be5-20f06e6a73a3")
+	)
+	(fp_line
+		(start -8.9 16.14)
+		(end 8.9 16.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f491a5f-4fd8-4a4a-a16b-261a0bb376eb")
+	)
+	(fp_line
+		(start 8.9 -16.86)
+		(end 8.9 16.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5322897-159e-4c67-8328-e8afb0505516")
+	)
 	(pad "1" thru_hole oval
 		(at 7.62 -12.7)
 		(size 1.9 1.9)
@@ -269,7 +309,7 @@
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
-		(uuid "6010bda2-21e4-4adc-869a-3d8a4cbbe920")
+		(uuid "e8fcb6a2-8d7c-4da4-9aec-3de65ece456b")
 	)
 	(embedded_fonts no)
 )
