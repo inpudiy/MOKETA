@@ -5,8 +5,7 @@
 	(layer "F.Cu")
 	(property "Reference" "LED**"
 		(at 0.1524 0.1016 0)
-		(layer "F.SilkS")
-		(hide yes)
+		(layer "F.Fab")
 		(uuid "ba46b0a5-f899-4008-9671-f17d7ae41463")
 		(effects
 			(font
@@ -54,6 +53,18 @@
 		)
 	)
 	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 2.81 1.435) (xy 3.25 1.435) (xy 3.25 1.225)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "eafa6889-17fe-4bed-b154-e4317d262775")
+	)
 	(fp_line
 		(start 1.6 -1.4)
 		(end -1.6 -1.4)
@@ -132,15 +143,15 @@
 		(uuid "16219db6-c142-4998-966c-1d0cc2ec9ac0")
 	)
 	(embedded_fonts no)
-	(model "../PNCATEHO_lib/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+	(model "${KIPRJMOD}/lib/step/LED_SK6812MINI-E.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 180 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

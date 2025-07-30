@@ -312,4 +312,15 @@
 		(uuid "e8fcb6a2-8d7c-4da4-9aec-3de65ece456b")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/step/ProMicro.step"
+		(offset
+			(xyz 9 -16.5 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 -0)
+		)
+	)
 )

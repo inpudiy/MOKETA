@@ -53,6 +53,46 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -0.42 -0.545)
+		(end -0.42 0.545)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "004ff8fa-a159-4299-8de8-12f049914d0d")
+	)
+	(fp_line
+		(start -0.42 0)
+		(end 0.42 -0.545)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "2b62dd2d-ceb1-42b1-9c83-472596097a59")
+	)
+	(fp_line
+		(start 0.42 -0.545)
+		(end 0.42 0.545)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "cad1c4a4-139c-4d65-b476-8b67e315ca0d")
+	)
+	(fp_line
+		(start 0.42 0.545)
+		(end -0.42 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "aab9c195-7d3e-4041-baea-60ade524539b")
+	)
 	(fp_rect
 		(start -2.35 -1.15)
 		(end 2.35 1.15)
@@ -77,16 +117,22 @@
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "6df6f7bc-2215-4f91-8920-244285a2df55")
 	)
+	(group ""
+		(uuid "8ed0f3c9-88cf-4c1e-81a9-f2a101b5de1d")
+		(members "004ff8fa-a159-4299-8de8-12f049914d0d" "2b62dd2d-ceb1-42b1-9c83-472596097a59"
+			"aab9c195-7d3e-4041-baea-60ade524539b" "cad1c4a4-139c-4d65-b476-8b67e315ca0d"
+		)
+	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
+	(model "${KIPRJMOD}/lib/step/D_SOD-123.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 -1.7)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 180 180)
 		)
 	)
 )

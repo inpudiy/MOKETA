@@ -1780,6 +1780,12 @@
 		(uuid "63135c84-c822-4c8a-8f40-5feb8c6f1b7c")
 	)
 	(junction
+		(at 129.54 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "688d873d-6abf-44b8-96ed-7923ea74f20b")
+	)
+	(junction
 		(at 205.74 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1832,6 +1838,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83739c37-2eb2-49ee-9a58-be15f9420077")
+	)
+	(junction
+		(at 116.84 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84cf0095-f73b-4138-b020-cce0ef3090a2")
 	)
 	(junction
 		(at 34.29 238.76)
@@ -1930,6 +1942,12 @@
 		(uuid "b382043b-c6f7-4260-b15a-c5598442aec1")
 	)
 	(junction
+		(at 116.84 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b52d6113-a30f-4b1e-b968-0eb73d2083f7")
+	)
+	(junction
 		(at 71.12 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1976,6 +1994,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4d291c0-39ce-4c37-b9c4-ad1475cc8980")
+	)
+	(junction
+		(at 129.54 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca382f16-ee75-4dd2-9717-a6667fa4e960")
 	)
 	(junction
 		(at 144.78 162.56)
@@ -2094,8 +2118,8 @@
 		(uuid "1e8a3042-7d81-4ecb-bce1-d34f4896b272")
 	)
 	(no_connect
-		(at 129.54 119.38)
-		(uuid "ee5b8aa7-27e5-4688-9232-8ee5f05b8282")
+		(at 137.16 127)
+		(uuid "6acda5a1-b4d8-4f38-9bcc-0d27a6c756e2")
 	)
 	(wire
 		(pts
@@ -2479,6 +2503,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 119.38) (xy 116.84 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350b53df-fa8d-4b00-aae8-8c1ae1020b2b")
+	)
+	(wire
+		(pts
 			(xy 33.02 111.76) (xy 48.26 111.76)
 		)
 		(stroke
@@ -2496,16 +2530,6 @@
 			(type default)
 		)
 		(uuid "3695c6ea-a66d-409e-8162-198111984da1")
-	)
-	(wire
-		(pts
-			(xy 86.36 140.97) (xy 86.36 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36a6dd7e-3ccb-44cb-9534-4e0d28a5cde1")
 	)
 	(wire
 		(pts
@@ -2666,6 +2690,16 @@
 			(type default)
 		)
 		(uuid "4d662088-866a-4908-8046-f2779ff99112")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 129.54 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e640ac9-100d-44a4-bba7-825b2e5b015f")
 	)
 	(wire
 		(pts
@@ -3179,6 +3213,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 140.97) (xy 129.54 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902e9c9a-b20b-4304-ac01-759ff5051462")
+	)
+	(wire
+		(pts
+			(xy 86.36 140.97) (xy 86.36 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96238da3-f539-4317-80d0-98f4820c2cea")
+	)
+	(wire
+		(pts
 			(xy 195.58 63.5) (xy 212.09 63.5)
 		)
 		(stroke
@@ -3566,6 +3620,16 @@
 			(type default)
 		)
 		(uuid "cec7a3b6-5cee-41c0-bb96-04795724ec19")
+	)
+	(wire
+		(pts
+			(xy 116.84 140.97) (xy 116.84 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef78343-1091-4831-b566-1a1291854534")
 	)
 	(wire
 		(pts
@@ -4815,7 +4879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 153.67 190.5 0)
 			(effects
 				(font
@@ -4956,7 +5020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:J_BATTERY"
 			(at 113.284 247.396 0)
 			(effects
 				(font
@@ -5232,7 +5296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 133.35 177.8 0)
 			(effects
 				(font
@@ -5375,7 +5439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 106.68 113.03 0)
 			(effects
 				(font
@@ -5582,7 +5646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 170.18 125.73 0)
 			(effects
 				(font
@@ -5792,7 +5856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 35.56 168.91 0)
 			(effects
 				(font
@@ -5866,7 +5930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 170.18 147.32 0)
 			(effects
 				(font
@@ -6490,7 +6554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -6564,7 +6628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 96.52 125.73 0)
 			(effects
 				(font
@@ -6684,7 +6748,7 @@
 	)
 	(symbol
 		(lib_id "moketa:GND")
-		(at 86.36 163.83 0)
+		(at 86.36 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6693,7 +6757,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e98fcd3-1031-4a3a-8a0a-89b42bb2d0f3")
 		(property "Reference" "#PWR06"
-			(at 86.36 170.18 0)
+			(at 86.36 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6702,7 +6766,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 168.91 0)
+			(at 86.36 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +6774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 163.83 0)
+			(at 86.36 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6719,7 +6783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 163.83 0)
+			(at 86.36 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,7 +6792,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 163.83 0)
+			(at 86.36 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,7 +6838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 35.56 147.32 0)
 			(effects
 				(font
@@ -6848,7 +6912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 163.83 177.8 0)
 			(effects
 				(font
@@ -6922,7 +6986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 149.86 134.62 0)
 			(effects
 				(font
@@ -6996,7 +7060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 66.04 125.73 0)
 			(effects
 				(font
@@ -7070,7 +7134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 149.86 156.21 0)
 			(effects
 				(font
@@ -7490,7 +7554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 180.34 156.21 0)
 			(effects
 				(font
@@ -8190,7 +8254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 45.72 156.21 0)
 			(effects
 				(font
@@ -8472,7 +8536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 139.7 147.32 0)
 			(effects
 				(font
@@ -8546,7 +8610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 91.44 177.8 0)
 			(effects
 				(font
@@ -8689,7 +8753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 81.28 190.5 0)
 			(effects
 				(font
@@ -9041,7 +9105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 200.66 125.73 0)
 			(effects
 				(font
@@ -9668,7 +9732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 180.34 113.03 0)
 			(effects
 				(font
@@ -9811,7 +9875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 96.52 168.91 0)
 			(effects
 				(font
@@ -9885,7 +9949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 139.7 168.91 0)
 			(effects
 				(font
@@ -9959,7 +10023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 180.34 134.62 0)
 			(effects
 				(font
@@ -10103,7 +10167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 210.82 113.03 0)
 			(effects
 				(font
@@ -10313,7 +10377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -10456,7 +10520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 35.56 125.73 0)
 			(effects
 				(font
@@ -10530,7 +10594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 111.76 190.5 0)
 			(effects
 				(font
@@ -10673,7 +10737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 96.52 147.32 0)
 			(effects
 				(font
@@ -11069,6 +11133,72 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:GND")
+		(at 116.84 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acadffc8-a445-4a61-a53e-fb8d5234f6cc")
+		(property "Reference" "#PWR09"
+			(at 116.84 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "976374cf-226e-48d2-b29f-e822ceda7357")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:Diode")
 		(at 212.09 29.21 0)
 		(unit 1)
@@ -11208,6 +11338,72 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:GND")
+		(at 129.54 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1984519-ebae-4197-910f-0d48a592a5db")
+		(property "Reference" "#PWR010"
+			(at 129.54 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca5667b2-1112-432e-8e3e-5e8bf6535cd5")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:YS-SK6812MINI-E")
 		(at 198.12 140.97 0)
 		(unit 1)
@@ -11233,7 +11429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 200.66 147.32 0)
 			(effects
 				(font
@@ -11655,7 +11851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 210.82 156.21 0)
 			(effects
 				(font
@@ -12009,7 +12205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 76.2 113.03 0)
 			(effects
 				(font
@@ -12222,7 +12418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 139.7 125.73 0)
 			(effects
 				(font
@@ -12365,7 +12561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 76.2 134.62 0)
 			(effects
 				(font
@@ -12439,7 +12635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 106.68 134.62 0)
 			(effects
 				(font
@@ -12513,7 +12709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 45.72 113.03 0)
 			(effects
 				(font
@@ -12935,7 +13131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 210.82 134.62 0)
 			(effects
 				(font
@@ -13426,7 +13622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 106.68 156.21 0)
 			(effects
 				(font
@@ -13500,7 +13696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 76.2 156.21 0)
 			(effects
 				(font
@@ -13574,7 +13770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 200.66 168.91 0)
 			(effects
 				(font
@@ -13786,7 +13982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 66.04 168.91 0)
 			(effects
 				(font
@@ -13861,7 +14057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:SW_TACT"
 			(at 114.3 228.6 0)
 			(effects
 				(font
@@ -14207,7 +14403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 66.04 147.32 0)
 			(effects
 				(font
@@ -14420,7 +14616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:YS-SK6812MINI-E"
 			(at 170.18 168.91 0)
 			(effects
 				(font

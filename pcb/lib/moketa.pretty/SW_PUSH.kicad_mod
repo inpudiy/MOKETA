@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "SW**"
-		(at 0 -8.5 0)
+		(at 0 -8.128 0)
 		(layer "F.Fab")
 		(uuid "f86eb6b4-9563-4ce1-8d13-f1e95a6fa99d")
 		(effects
@@ -264,4 +264,15 @@
 		(uuid "a93dad9b-4f45-43b8-90cd-84e3b16cfdca")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/step/HotswapMX.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
