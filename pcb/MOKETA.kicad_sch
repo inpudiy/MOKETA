@@ -5277,7 +5277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "moketa:BSI-10H"
 			(at 123.444 249.174 0)
 			(effects
 				(font
