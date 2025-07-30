@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "9e45a776-7007-48ff-b543-dc98423173b7")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "moketa:Diode"
 			(pin_numbers
@@ -1304,6 +1304,234 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "moketa:YS-SK6812MINI-E"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 3.81 6.096 0)
+				(effects
+					(font
+						(size 0.7366 0.7366)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 6.604 -6.35 0)
+				(effects
+					(font
+						(size 0.7366 0.7366)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "YS-SK6812MINI-E_0_1"
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "YS-SK6812MINI-E_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 103.378 219.202)
+		(end 135.636 248.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 57aeab18-d6b8-4507-b297-da1d9aaa9caf)
+	)
+	(rectangle
+		(start 20.066 14.986)
+		(end 256.032 84.836)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bca1dfb1-6f88-4422-9190-d0c074ce5531)
+	)
+	(rectangle
+		(start 20.32 94.996)
+		(end 257.048 205.486)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c5d293f3-079f-42c9-8175-db4cb14f716e)
+	)
+	(rectangle
+		(start 23.368 219.71)
+		(end 95.758 270.002)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c6b69b37-a1ee-484e-bda6-2a9cfd49922c)
+	)
+	(text "Matrix"
+		(exclude_from_sim no)
+		(at 251.206 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14c648de-65b2-4831-8127-b7d99f698fd6")
+	)
+	(text "Power Control\n"
+		(exclude_from_sim no)
+		(at 125.984 246.888 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81503291-be88-4831-bf97-b8954c0e7eee")
+	)
+	(text "Microcontroller"
+		(exclude_from_sim no)
+		(at 87.376 267.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c1f9da2-2221-4b57-b85f-ed37f4c4f576")
+	)
+	(text "Led"
+		(exclude_from_sim no)
+		(at 252.476 203.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca8a0ee0-6584-4162-a04e-2bc0d39a6fad")
 	)
 	(junction
 		(at 219.71 40.64)
@@ -1324,6 +1552,30 @@
 		(uuid "0bce2b37-3426-4348-9701-084a9112a3e0")
 	)
 	(junction
+		(at 175.26 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e9acf6c-aab6-43ae-9774-16b18ee23c67")
+	)
+	(junction
+		(at 101.6 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f4d2f16-3ab1-46cd-b468-cb9c0ed1c93a")
+	)
+	(junction
+		(at 144.78 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10174b74-fa02-4d9f-b55a-8212eabdda98")
+	)
+	(junction
+		(at 205.74 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12c5a115-009f-4fe4-8743-6c35db1d3577")
+	)
+	(junction
 		(at 212.09 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1334,6 +1586,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16ecf418-ca17-4c25-b6cc-c0de24216b4f")
+	)
+	(junction
+		(at 25.4 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d78381b-1296-4f8f-9c44-f35d59262e0b")
 	)
 	(junction
 		(at 92.71 40.64)
@@ -1354,6 +1612,24 @@
 		(uuid "21c21dc1-cf88-4f0a-8953-22051b748bf3")
 	)
 	(junction
+		(at 143.51 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "220ca4d2-53c6-437b-994d-d38022f42141")
+	)
+	(junction
+		(at 144.78 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23f333d8-8939-4707-8b04-2ce9ed9ce53c")
+	)
+	(junction
+		(at 101.6 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "240b68b1-20dc-4ff2-93aa-23c3208b0fe5")
+	)
+	(junction
 		(at 102.87 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1364,6 +1640,36 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c7b24ab-250b-40b5-b7cc-d2a79b3442da")
+	)
+	(junction
+		(at 213.36 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2da48053-ea11-4242-99f9-27a1ffffc2a1")
+	)
+	(junction
+		(at 143.51 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32c68bc2-a4da-4e4c-92e4-ea1b328fee2f")
+	)
+	(junction
+		(at 158.75 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "359918d2-15ce-426b-8a7b-4bb7f8066a50")
+	)
+	(junction
+		(at 123.19 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36d5a456-e5d2-45cf-aa0b-4eb062cdf332")
+	)
+	(junction
+		(at 175.26 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38ebdff9-2dd6-4fcc-a824-9c63fa6ef4dc")
 	)
 	(junction
 		(at 152.4 40.64)
@@ -1384,10 +1690,46 @@
 		(uuid "3e3edb11-bf22-40a9-99b7-5722d4e26fbe")
 	)
 	(junction
+		(at 71.12 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fd005a8-3b84-427f-8bb0-947f91d927ad")
+	)
+	(junction
+		(at 71.12 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41ace965-76dc-406f-b2ef-67be62f209cc")
+	)
+	(junction
+		(at 55.88 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42b3deca-2b97-47a4-baa5-1e526aeb3220")
+	)
+	(junction
 		(at 85.09 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44bcffd6-5804-41c1-b374-7639f4a2a28d")
+	)
+	(junction
+		(at 190.5 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4752bef5-f08e-4ecc-bf54-be05a0a1d4e0")
+	)
+	(junction
+		(at 190.5 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48a6ae50-a597-4ec0-8a3f-2b195b0d4382")
+	)
+	(junction
+		(at 55.88 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48b1d85b-f332-47a8-9d31-d94a0129780a")
 	)
 	(junction
 		(at 85.09 33.02)
@@ -1438,10 +1780,40 @@
 		(uuid "63135c84-c822-4c8a-8f40-5feb8c6f1b7c")
 	)
 	(junction
+		(at 205.74 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6987f26f-2c1e-48e0-bfff-12e7123c6f39")
+	)
+	(junction
 		(at 110.49 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f2eb357-6b89-4053-83a2-3ea5426c45ed")
+	)
+	(junction
+		(at 40.64 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70767ac2-8b53-4b52-8d7e-4ff36c23fbd9")
+	)
+	(junction
+		(at 101.6 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "749501af-7652-42f7-8fae-00180fc6e778")
+	)
+	(junction
+		(at 205.74 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76c49fa6-ff63-43ff-b3df-7b4c8ca4d357")
+	)
+	(junction
+		(at 175.26 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f64241c-2b61-47bb-b342-bba9b78ec9d9")
 	)
 	(junction
 		(at 52.07 33.02)
@@ -1462,7 +1834,7 @@
 		(uuid "83739c37-2eb2-49ee-9a58-be15f9420077")
 	)
 	(junction
-		(at 27.94 162.56)
+		(at 34.29 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88c75b75-82a6-448b-bbf5-5d5a53d59355")
@@ -1486,10 +1858,52 @@
 		(uuid "8e424236-58c1-473a-bde7-9e82050672b4")
 	)
 	(junction
+		(at 175.26 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e55a504-babf-4ade-a48b-e6357fee894a")
+	)
+	(junction
+		(at 190.5 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fa6eec8-94bb-454e-b2a5-d3749a0e6300")
+	)
+	(junction
+		(at 86.36 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "955cf967-4900-4c01-9cee-c6224c0557cb")
+	)
+	(junction
+		(at 101.6 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "984f9024-5aa9-4abf-94de-39b4da70a32a")
+	)
+	(junction
+		(at 101.6 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dd19239-ac73-4ffb-9208-0ec8f281527c")
+	)
+	(junction
 		(at 68.58 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f457367-68a2-4ff5-a837-668d38c9af95")
+	)
+	(junction
+		(at 220.98 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0f5b4c4-59cd-468e-84af-0b07aecf3c84")
+	)
+	(junction
+		(at 86.36 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a23b6661-f2fc-4d8d-9317-774127cf8f36")
 	)
 	(junction
 		(at 179.07 48.26)
@@ -1504,10 +1918,34 @@
 		(uuid "ad62b7bc-484e-4240-bfe6-65d1acad70c4")
 	)
 	(junction
+		(at 160.02 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afcbbfe1-a943-4e9f-a603-5ca8b32be5da")
+	)
+	(junction
+		(at 144.78 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b382043b-c6f7-4260-b15a-c5598442aec1")
+	)
+	(junction
+		(at 71.12 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba5cfbca-b56a-4852-9841-c099636aafa0")
+	)
+	(junction
 		(at 185.42 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bad53e37-04b2-490b-a0db-409cfe7bbda6")
+	)
+	(junction
+		(at 40.64 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd4349ee-420a-4f04-8fad-3b87b52c6a45")
 	)
 	(junction
 		(at 41.91 40.64)
@@ -1516,10 +1954,40 @@
 		(uuid "bdfd9389-f2d6-4013-a574-edc7dba70d82")
 	)
 	(junction
+		(at 220.98 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1005538-a6b3-4595-a787-757fbac4fdf4")
+	)
+	(junction
+		(at 40.64 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c392b9a1-6952-4878-b53c-998ccbb89964")
+	)
+	(junction
+		(at 86.36 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3fa134a-3d5e-499b-bf63-e0352196d04d")
+	)
+	(junction
 		(at 74.93 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4d291c0-39ce-4c37-b9c4-ad1475cc8980")
+	)
+	(junction
+		(at 144.78 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc8bd2d3-016a-4e84-9975-a43dc8b0a1eb")
+	)
+	(junction
+		(at 71.12 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0c4d165-ab37-449e-8732-12110781647f")
 	)
 	(junction
 		(at 102.87 78.74)
@@ -1540,10 +2008,22 @@
 		(uuid "d94bc2fe-6341-4f3f-a55e-016e9de8895f")
 	)
 	(junction
+		(at 160.02 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcadd2c3-9823-450e-a71e-565c591a3734")
+	)
+	(junction
 		(at 68.58 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddcda6eb-d980-4fee-8134-617d49da4de6")
+	)
+	(junction
+		(at 123.19 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dea12653-28af-4c71-9732-bfc77f659238")
 	)
 	(junction
 		(at 201.93 40.64)
@@ -1558,10 +2038,40 @@
 		(uuid "eb9b42ca-5a79-4a27-b73c-a40a6195df6e")
 	)
 	(junction
+		(at 160.02 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec6333b7-dc3c-4379-9c0e-20dead6b7aea")
+	)
+	(junction
 		(at 25.4 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecb13f14-f011-4ffb-867e-6cd47d1f05b9")
+	)
+	(junction
+		(at 86.36 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecc18ee3-0a5e-432f-ae6b-663dcc8094c7")
+	)
+	(junction
+		(at 25.4 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee90379f-5620-440b-a35c-5a30fc341ccd")
+	)
+	(junction
+		(at 101.6 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0696986-bae6-420d-b9dc-6a8ea2eecf11")
+	)
+	(junction
+		(at 55.88 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f24fe755-323d-4b56-9559-807b819a3e92")
 	)
 	(junction
 		(at 52.07 63.5)
@@ -1576,12 +2086,26 @@
 		(uuid "f8c19eff-6e41-4fd8-91be-90c06d6969ad")
 	)
 	(no_connect
-		(at 95.25 168.91)
+		(at 115.57 242.57)
 		(uuid "04e344fd-e813-42d2-80ff-04f658bdff14")
 	)
 	(no_connect
-		(at 105.41 168.91)
+		(at 125.73 242.57)
 		(uuid "1e8a3042-7d81-4ecb-bce1-d34f4896b272")
+	)
+	(no_connect
+		(at 129.54 119.38)
+		(uuid "ee5b8aa7-27e5-4688-9232-8ee5f05b8282")
+	)
+	(wire
+		(pts
+			(xy 175.26 105.41) (xy 205.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d11032-4538-49b7-b163-360b78851817")
 	)
 	(wire
 		(pts
@@ -1605,6 +2129,26 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 105.41) (xy 71.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04299241-6feb-48e4-bb57-49ff103da7d7")
+	)
+	(wire
+		(pts
+			(xy 109.22 191.77) (xy 135.89 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0981aa7a-43d8-41a3-9207-ea99f46d07eb")
+	)
+	(wire
+		(pts
 			(xy 85.09 48.26) (xy 102.87 48.26)
 		)
 		(stroke
@@ -1615,6 +2159,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 119.38) (xy 190.5 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bba2b82-2bbd-41b3-97f7-2962bd902e2a")
+	)
+	(wire
+		(pts
 			(xy 102.87 78.74) (xy 120.65 78.74)
 		)
 		(stroke
@@ -1622,6 +2176,16 @@
 			(type default)
 		)
 		(uuid "0ea91a20-371c-4b0f-a4f0-a230942d49a3")
+	)
+	(wire
+		(pts
+			(xy 78.74 127) (xy 93.98 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102c405c-84a5-4162-b836-4d9fc3dad32a")
 	)
 	(wire
 		(pts
@@ -1645,6 +2209,46 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 140.97) (xy 220.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119c65eb-69a8-4b63-b345-31e6aa18bf08")
+	)
+	(wire
+		(pts
+			(xy 93.98 176.53) (xy 109.22 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ca41ff-6e2a-4eca-8969-10da395594b9")
+	)
+	(wire
+		(pts
+			(xy 144.78 140.97) (xy 144.78 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1327e0c9-cdb6-4dad-8cf9-b73170f0a0a2")
+	)
+	(wire
+		(pts
+			(xy 175.26 140.97) (xy 175.26 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140d5877-ccc3-4d2b-bed8-c61d915e2696")
+	)
+	(wire
+		(pts
 			(xy 212.09 33.02) (xy 229.87 33.02)
 		)
 		(stroke
@@ -1652,6 +2256,26 @@
 			(type default)
 		)
 		(uuid "150ce5c4-1811-425b-89c1-ee0e7184f31a")
+	)
+	(wire
+		(pts
+			(xy 93.98 154.94) (xy 109.22 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178afef6-6765-4968-9743-b7d1eba13627")
+	)
+	(wire
+		(pts
+			(xy 213.36 133.35) (xy 213.36 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5d6316-b5ee-49b4-b31a-e6173889e251")
 	)
 	(wire
 		(pts
@@ -1665,6 +2289,36 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 119.38) (xy 101.6 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0c513c-46cd-482f-981e-0e3a76c9aafa")
+	)
+	(wire
+		(pts
+			(xy 71.12 140.97) (xy 71.12 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee15a16-ffd1-4bff-b618-b70989858a39")
+	)
+	(wire
+		(pts
+			(xy 175.26 119.38) (xy 175.26 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f68c71a-39ad-4885-8059-10eaf8865624")
+	)
+	(wire
+		(pts
 			(xy 179.07 48.26) (xy 195.58 48.26)
 		)
 		(stroke
@@ -1672,6 +2326,46 @@
 			(type default)
 		)
 		(uuid "1fba990e-5e1a-4f47-b633-ab3ab9a7eac4")
+	)
+	(wire
+		(pts
+			(xy 48.26 170.18) (xy 63.5 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b4360b-79eb-4f90-bfce-1077b3e34dcb")
+	)
+	(wire
+		(pts
+			(xy 205.74 119.38) (xy 205.74 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2273df1c-2b84-4232-996f-32b4fdb8a2df")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236f7e82-3238-4590-a599-568764f1de87")
+	)
+	(wire
+		(pts
+			(xy 152.4 133.35) (xy 167.64 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a30696-5ddc-488e-b0f9-0a26de38d9a3")
 	)
 	(wire
 		(pts
@@ -1695,6 +2389,46 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 105.41) (xy 101.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e0e783-a5a5-4ea7-8d2c-fa956f635255")
+	)
+	(wire
+		(pts
+			(xy 71.12 119.38) (xy 71.12 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4fc232-990e-4760-af42-a957cb2bac25")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 144.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5a3c7f-4e66-4019-86ca-d2d4afa8bac6")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 175.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6166a1-9b5b-4862-b449-7fade7f2dcca")
+	)
+	(wire
+		(pts
 			(xy 25.4 55.88) (xy 25.4 40.64)
 		)
 		(stroke
@@ -1702,6 +2436,16 @@
 			(type default)
 		)
 		(uuid "2c791828-3da7-47d7-99ae-67d73f7a822e")
+	)
+	(wire
+		(pts
+			(xy 175.26 172.72) (xy 175.26 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd34c04-e52d-421f-a95e-c64862d0f804")
 	)
 	(wire
 		(pts
@@ -1715,6 +2459,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 170.18) (xy 109.22 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b7e358-a4d1-41e8-8355-057c72ea626f")
+	)
+	(wire
+		(pts
 			(xy 212.09 63.5) (xy 229.87 63.5)
 		)
 		(stroke
@@ -1725,7 +2479,57 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 165.1) (xy 27.94 165.1)
+			(xy 33.02 111.76) (xy 48.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ec3178-9571-4b5e-9129-6486f3881e61")
+	)
+	(wire
+		(pts
+			(xy 123.19 105.41) (xy 144.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3695c6ea-a66d-409e-8162-198111984da1")
+	)
+	(wire
+		(pts
+			(xy 86.36 140.97) (xy 86.36 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a6dd7e-3ccb-44cb-9534-4e0d28a5cde1")
+	)
+	(wire
+		(pts
+			(xy 101.6 105.41) (xy 123.19 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37245bce-c13e-42be-aa4d-c97f881feff0")
+	)
+	(wire
+		(pts
+			(xy 40.64 119.38) (xy 40.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0b5cc5-4cdc-465f-8261-b4674fc1cd16")
+	)
+	(wire
+		(pts
+			(xy 38.1 241.3) (xy 34.29 241.3)
 		)
 		(stroke
 			(width 0)
@@ -1745,6 +2549,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 148.59) (xy 182.88 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f68f232-4db7-41f7-aaf5-d367a4b18ef7")
+	)
+	(wire
+		(pts
 			(xy 102.87 63.5) (xy 120.65 63.5)
 		)
 		(stroke
@@ -1752,6 +2566,26 @@
 			(type default)
 		)
 		(uuid "403ec40c-91b7-4094-b55b-a9c2e75f62c1")
+	)
+	(wire
+		(pts
+			(xy 182.88 133.35) (xy 198.12 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40aaf2e2-00bf-485c-9f2c-7dd91be3236a")
+	)
+	(wire
+		(pts
+			(xy 151.13 191.77) (xy 166.37 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41bf4a3f-d436-4edd-811a-8c22ccf1627f")
 	)
 	(wire
 		(pts
@@ -1765,13 +2599,23 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 162.56) (xy 27.94 162.56)
+			(xy 33.02 238.76) (xy 34.29 238.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4442bd4f-cff2-4a4d-bc89-318a94f76e44")
+	)
+	(wire
+		(pts
+			(xy 127 133.35) (xy 137.16 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a03401-79a9-440d-9354-72ec9f7cd98d")
 	)
 	(wire
 		(pts
@@ -1785,6 +2629,26 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 140.97) (xy 40.64 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479f7971-0117-4947-9689-07c647120d7c")
+	)
+	(wire
+		(pts
+			(xy 63.5 148.59) (xy 78.74 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aae0d22-5952-44a8-bb5b-ef8e14d23c1e")
+	)
+	(wire
+		(pts
 			(xy 229.87 63.5) (xy 247.65 63.5)
 		)
 		(stroke
@@ -1792,6 +2656,16 @@
 			(type default)
 		)
 		(uuid "4ad12ef5-fa6a-43ac-abbc-25e695ddcd7c")
+	)
+	(wire
+		(pts
+			(xy 86.36 119.38) (xy 86.36 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d662088-866a-4908-8046-f2779ff99112")
 	)
 	(wire
 		(pts
@@ -1805,6 +2679,36 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 170.18) (xy 33.02 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe7f665-7ce9-49d3-aab4-b394e7efb937")
+	)
+	(wire
+		(pts
+			(xy 101.6 194.31) (xy 123.19 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe87084-a90d-40ff-8bbe-a8cc6650f673")
+	)
+	(wire
+		(pts
+			(xy 48.26 133.35) (xy 63.5 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506c9e33-8da2-47b8-8411-77f192e5548a")
+	)
+	(wire
+		(pts
 			(xy 68.58 33.02) (xy 85.09 33.02)
 		)
 		(stroke
@@ -1812,6 +2716,16 @@
 			(type default)
 		)
 		(uuid "55d4e9ee-e61b-4412-b506-049a717c9f49")
+	)
+	(wire
+		(pts
+			(xy 40.64 119.38) (xy 40.64 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56296b4c-2cf0-46c5-9f1c-20d62bd3c6e3")
 	)
 	(wire
 		(pts
@@ -1825,6 +2739,46 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 140.97) (xy 205.74 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5710a986-d9e3-42e7-afb1-2634d4b2af22")
+	)
+	(wire
+		(pts
+			(xy 213.36 170.18) (xy 213.36 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57871f46-3dbd-4648-9dcb-53270ccd8389")
+	)
+	(wire
+		(pts
+			(xy 135.89 176.53) (xy 151.13 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57dd2d8d-053f-4c91-a9e9-1e9eb203a9e1")
+	)
+	(wire
+		(pts
+			(xy 158.75 172.72) (xy 175.26 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5808026e-6937-41b4-8500-c6188646cfce")
+	)
+	(wire
+		(pts
 			(xy 58.42 25.4) (xy 58.42 40.64)
 		)
 		(stroke
@@ -1835,7 +2789,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 162.56) (xy 31.75 162.56)
+			(xy 34.29 238.76) (xy 38.1 238.76)
 		)
 		(stroke
 			(width 0)
@@ -1895,6 +2849,26 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 184.15) (xy 158.75 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f9bf15-f0e6-4d3f-b00c-2f3246953d1e")
+	)
+	(wire
+		(pts
+			(xy 166.37 176.53) (xy 213.36 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "620e3f5f-5a60-46dc-bd13-86c93319a5ec")
+	)
+	(wire
+		(pts
 			(xy 35.56 48.26) (xy 52.07 48.26)
 		)
 		(stroke
@@ -1905,7 +2879,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 162.56) (xy 67.31 162.56)
+			(xy 80.01 238.76) (xy 73.66 238.76)
 		)
 		(stroke
 			(width 0)
@@ -1915,7 +2889,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 157.48) (xy 67.31 157.48)
+			(xy 119.38 133.35) (xy 119.38 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d68aca-9990-457f-8e7d-5518604dcf8b")
+	)
+	(wire
+		(pts
+			(xy 80.01 233.68) (xy 73.66 233.68)
 		)
 		(stroke
 			(width 0)
@@ -1945,6 +2929,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 154.94) (xy 48.26 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd4016b-08e0-48bf-b0a0-1c3036a326ac")
+	)
+	(wire
+		(pts
 			(xy 25.4 40.64) (xy 25.4 25.4)
 		)
 		(stroke
@@ -1955,7 +2949,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 165.1) (xy 27.94 162.56)
+			(xy 182.88 170.18) (xy 198.12 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ad0066-987f-4452-940c-a61ab07edad6")
+	)
+	(wire
+		(pts
+			(xy 34.29 241.3) (xy 34.29 238.76)
 		)
 		(stroke
 			(width 0)
@@ -1972,6 +2976,86 @@
 			(type default)
 		)
 		(uuid "741d5c52-7f5e-41ef-81e3-8c1eb749d5b2")
+	)
+	(wire
+		(pts
+			(xy 123.19 101.6) (xy 123.19 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750f626f-9e86-4176-8849-cebc2be23f1c")
+	)
+	(wire
+		(pts
+			(xy 152.4 170.18) (xy 167.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751f292f-bd1a-419d-92e6-23d48adf2776")
+	)
+	(wire
+		(pts
+			(xy 123.19 194.31) (xy 143.51 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767fd918-8ed3-4f98-8899-e4a25dcfeae2")
+	)
+	(wire
+		(pts
+			(xy 182.88 127) (xy 198.12 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a003bc7-2a36-4c02-9a9e-80264c3fd837")
+	)
+	(wire
+		(pts
+			(xy 33.02 127) (xy 33.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8dad54-184c-49a1-b267-59e695e0956e")
+	)
+	(wire
+		(pts
+			(xy 25.4 194.31) (xy 101.6 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9f47c9-aa52-41cb-98e2-b9163fdd9599")
+	)
+	(wire
+		(pts
+			(xy 198.12 111.76) (xy 213.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dddc091-d5cf-4c1e-b345-7ea879588c22")
+	)
+	(wire
+		(pts
+			(xy 93.98 148.59) (xy 109.22 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb337fa-a2e3-4e2a-a449-9856e78697ed")
 	)
 	(wire
 		(pts
@@ -2005,6 +3089,36 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 154.94) (xy 182.88 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838c89a5-d1ca-49df-bb44-4153d538b622")
+	)
+	(wire
+		(pts
+			(xy 80.01 241.3) (xy 73.66 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84bd06ad-3ce8-4c59-951a-de4b8bbeee55")
+	)
+	(wire
+		(pts
+			(xy 144.78 119.38) (xy 144.78 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876398a3-45a9-4f38-8a7b-d671c9b69d1a")
+	)
+	(wire
+		(pts
 			(xy 110.49 71.12) (xy 110.49 55.88)
 		)
 		(stroke
@@ -2015,6 +3129,26 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 119.38) (xy 25.4 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89253ded-ebe2-40eb-880d-a0deb7c86ca1")
+	)
+	(wire
+		(pts
+			(xy 63.5 111.76) (xy 78.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b3b411-cecd-42da-a9a5-35ebdad19a37")
+	)
+	(wire
+		(pts
 			(xy 52.07 33.02) (xy 68.58 33.02)
 		)
 		(stroke
@@ -2022,6 +3156,16 @@
 			(type default)
 		)
 		(uuid "89b4bdb2-deff-40e0-8e5d-a7bdc64f614d")
+	)
+	(wire
+		(pts
+			(xy 127 170.18) (xy 127 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd1af53-c1bf-429a-92be-4d33b92e65fd")
 	)
 	(wire
 		(pts
@@ -2045,6 +3189,36 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 154.94) (xy 213.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99170103-08ef-4f93-8fb7-7a261fd3d455")
+	)
+	(wire
+		(pts
+			(xy 71.12 173.99) (xy 86.36 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999d51cc-93cc-49ac-ad37-8e2737dc84ff")
+	)
+	(wire
+		(pts
+			(xy 101.6 184.15) (xy 101.6 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f94e40-9070-4104-9cc8-c67b5853c9bd")
+	)
+	(wire
+		(pts
 			(xy 58.42 40.64) (xy 58.42 55.88)
 		)
 		(stroke
@@ -2055,6 +3229,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 162.56) (xy 71.12 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc4d1ae-cdba-4a1d-a385-b06f14ac06cf")
+	)
+	(wire
+		(pts
+			(xy 167.64 111.76) (xy 182.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de5a23f-3ee6-49bb-835a-852588ad4448")
+	)
+	(wire
+		(pts
 			(xy 219.71 25.4) (xy 219.71 40.64)
 		)
 		(stroke
@@ -2062,6 +3256,26 @@
 			(type default)
 		)
 		(uuid "9f2335bc-5234-4082-92b7-f2e750baa716")
+	)
+	(wire
+		(pts
+			(xy 175.26 105.41) (xy 175.26 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a044d79a-e78a-422b-8975-164a3f878df6")
+	)
+	(wire
+		(pts
+			(xy 220.98 162.56) (xy 220.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10e4f48-a762-48cb-8add-313d76b5f9d5")
 	)
 	(wire
 		(pts
@@ -2085,6 +3299,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 170.18) (xy 93.98 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a398ef4b-0f63-4518-9072-41ee390af875")
+	)
+	(wire
+		(pts
+			(xy 25.4 162.56) (xy 25.4 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b4d2d4-8386-4710-a0b3-ee8dbba1f571")
+	)
+	(wire
+		(pts
 			(xy 185.42 40.64) (xy 185.42 25.4)
 		)
 		(stroke
@@ -2092,6 +3326,16 @@
 			(type default)
 		)
 		(uuid "abc73360-10b2-4122-ab90-548824369ce5")
+	)
+	(wire
+		(pts
+			(xy 86.36 173.99) (xy 86.36 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad353253-e0af-4c6f-b0f2-a579ae55ab89")
 	)
 	(wire
 		(pts
@@ -2125,6 +3369,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 194.31) (xy 220.98 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b015ebc1-3165-4a6f-af0a-68288b23c87b")
+	)
+	(wire
+		(pts
 			(xy 102.87 33.02) (xy 120.65 33.02)
 		)
 		(stroke
@@ -2135,6 +3389,96 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 133.35) (xy 93.98 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09c227a-a39f-4420-8693-61de8c4392a0")
+	)
+	(wire
+		(pts
+			(xy 116.84 184.15) (xy 128.27 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a5497b-82b5-4ac7-9a59-d5119ac7e384")
+	)
+	(wire
+		(pts
+			(xy 71.12 105.41) (xy 101.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b63224-3b0b-436e-8422-8b631dda28c4")
+	)
+	(wire
+		(pts
+			(xy 205.74 105.41) (xy 205.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c8a475-74e1-4ecb-9de4-5da164dec1df")
+	)
+	(wire
+		(pts
+			(xy 55.88 119.38) (xy 55.88 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42a1f28-76fe-4072-a29f-fb91e3a5f2ca")
+	)
+	(wire
+		(pts
+			(xy 220.98 194.31) (xy 220.98 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42fdf13-1f87-40c4-b173-5f3478e3634d")
+	)
+	(wire
+		(pts
+			(xy 123.19 196.85) (xy 123.19 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6628fde-4960-4fe2-a00d-52db2f4ed6a9")
+	)
+	(wire
+		(pts
+			(xy 213.36 127) (xy 213.36 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b67484ab-1194-4c35-a721-420c0422f308")
+	)
+	(wire
+		(pts
+			(xy 25.4 140.97) (xy 25.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72e7fc9-2624-429d-91f7-141ed40fb18f")
+	)
+	(wire
+		(pts
 			(xy 162.56 63.5) (xy 179.07 63.5)
 		)
 		(stroke
@@ -2142,6 +3486,26 @@
 			(type default)
 		)
 		(uuid "ba344a9f-e368-4e76-8279-baa905ee2f05")
+	)
+	(wire
+		(pts
+			(xy 137.16 170.18) (xy 127 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf116f1-1c15-472b-acd9-ea27925d88fc")
+	)
+	(wire
+		(pts
+			(xy 152.4 127) (xy 167.64 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c109cd5d-c2ff-4a48-81e8-ce3a43b266d8")
 	)
 	(wire
 		(pts
@@ -2165,6 +3529,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 119.38) (xy 160.02 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51b907d-1298-4625-a029-f4e660dc9973")
+	)
+	(wire
+		(pts
 			(xy 212.09 48.26) (xy 229.87 48.26)
 		)
 		(stroke
@@ -2172,6 +3546,46 @@
 			(type default)
 		)
 		(uuid "c88f18a4-5df0-4e54-b216-6000b03718af")
+	)
+	(wire
+		(pts
+			(xy 55.88 140.97) (xy 55.88 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcecccb-08b4-46d4-af15-b72207f86f86")
+	)
+	(wire
+		(pts
+			(xy 160.02 140.97) (xy 160.02 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec7a3b6-5cee-41c0-bb96-04795724ec19")
+	)
+	(wire
+		(pts
+			(xy 198.12 148.59) (xy 213.36 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0fb165-4e9a-48f2-9df6-006332cca5ad")
+	)
+	(wire
+		(pts
+			(xy 71.12 105.41) (xy 71.12 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1463237-2377-4004-837e-d946d99a8754")
 	)
 	(wire
 		(pts
@@ -2195,6 +3609,36 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 191.77) (xy 93.98 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37017c8-54b3-472b-bb7f-5b022ff4a57c")
+	)
+	(wire
+		(pts
+			(xy 93.98 111.76) (xy 109.22 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d480e914-50f1-4bba-a999-b0084ee39616")
+	)
+	(wire
+		(pts
+			(xy 190.5 140.97) (xy 190.5 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fad0a9-644e-476c-bf2b-abca993c5511")
+	)
+	(wire
+		(pts
 			(xy 92.71 40.64) (xy 92.71 25.4)
 		)
 		(stroke
@@ -2212,6 +3656,66 @@
 			(type default)
 		)
 		(uuid "db3305a2-0e67-4c47-b32c-36b1461d2cf1")
+	)
+	(wire
+		(pts
+			(xy 33.02 176.53) (xy 78.74 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db92dd81-5bb9-4020-bfcb-a394ef523770")
+	)
+	(wire
+		(pts
+			(xy 48.26 127) (xy 63.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fe0a54-d3f4-4fa5-8d1f-14d0ab8a8c49")
+	)
+	(wire
+		(pts
+			(xy 137.16 148.59) (xy 152.4 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec52c3b3-b01c-4636-88fb-d542046c10d9")
+	)
+	(wire
+		(pts
+			(xy 101.6 140.97) (xy 101.6 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd7c00f-6001-49c1-a189-1a7e6938e78f")
+	)
+	(wire
+		(pts
+			(xy 109.22 133.35) (xy 119.38 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbc3188-ce39-4485-97dd-83ce8681271f")
+	)
+	(wire
+		(pts
+			(xy 63.5 154.94) (xy 78.74 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edebd08f-c3f6-43dd-9cc5-d3f47919d589")
 	)
 	(wire
 		(pts
@@ -2245,6 +3749,26 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 184.15) (xy 143.51 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b0dce4-7188-4fbf-b71c-9258a505ca25")
+	)
+	(wire
+		(pts
+			(xy 33.02 148.59) (xy 48.26 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8819108-3420-43ac-9daf-7e9966a86cb3")
+	)
+	(wire
+		(pts
 			(xy 102.87 48.26) (xy 120.65 48.26)
 		)
 		(stroke
@@ -2272,6 +3796,16 @@
 			(type default)
 		)
 		(uuid "fc3a8ea9-5044-4dc7-b810-60021eca8a9b")
+	)
+	(wire
+		(pts
+			(xy 137.16 154.94) (xy 152.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2a5506-1cd9-41b9-891d-fd42d9c18903")
 	)
 	(wire
 		(pts
@@ -2351,7 +3885,7 @@
 	)
 	(global_label "C0"
 		(shape input)
-		(at 31.75 175.26 180)
+		(at 38.1 251.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2361,7 +3895,7 @@
 		)
 		(uuid "2fafac48-fe07-4dce-bf20-4790f23a0dee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2853 175.26 0)
+			(at 32.6353 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +3907,7 @@
 	)
 	(global_label "C5"
 		(shape input)
-		(at 67.31 180.34 0)
+		(at 73.66 256.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2383,7 +3917,7 @@
 		)
 		(uuid "3049e8f5-e855-41d0-858c-edec6b54e97e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.7747 180.34 0)
+			(at 79.1247 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +3929,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 68.58 157.48 0)
+		(at 80.01 233.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2405,7 +3939,7 @@
 		)
 		(uuid "32b839c1-d6e4-486e-a0dd-573b05c0c714")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.4638 157.48 0)
+			(at 87.8938 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +3951,7 @@
 	)
 	(global_label "RST"
 		(shape input)
-		(at 99.06 154.94 0)
+		(at 119.38 228.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2427,7 +3961,7 @@
 		)
 		(uuid "341fd17f-6976-4b81-897b-91fbf9284322")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.4923 154.94 0)
+			(at 125.8123 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,6 +4059,50 @@
 			)
 		)
 	)
+	(global_label "LED"
+		(shape input)
+		(at 109.22 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bbacdd9-a9ef-4ac7-9d97-a8ca6d50bc0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.6523 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED"
+		(shape input)
+		(at 38.1 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c02aa75-a093-4e98-ac64-9329670dd8fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.6677 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "C4"
 		(shape input)
 		(at 219.71 25.4 90)
@@ -2549,7 +4127,7 @@
 	)
 	(global_label "R1"
 		(shape input)
-		(at 67.31 167.64 0)
+		(at 73.66 243.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2559,7 +4137,29 @@
 		)
 		(uuid "6b2b13e3-d37b-48a2-b3a0-1ae71b8a6af4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.7747 167.64 0)
+			(at 79.1247 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 80.01 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d7eacba-fd1b-4ca1-a706-c3f1b77755cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.6238 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +4171,7 @@
 	)
 	(global_label "C3"
 		(shape input)
-		(at 67.31 175.26 0)
+		(at 73.66 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2581,7 +4181,7 @@
 		)
 		(uuid "73fd7a66-88b9-427a-b750-b37ac164af59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.7747 175.26 0)
+			(at 79.1247 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +4215,7 @@
 	)
 	(global_label "R2"
 		(shape input)
-		(at 31.75 170.18 180)
+		(at 38.1 246.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2625,7 +4225,7 @@
 		)
 		(uuid "8be05839-3e29-4d54-b84e-7cc8f4b49551")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2853 170.18 0)
+			(at 32.6353 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +4259,7 @@
 	)
 	(global_label "R4"
 		(shape input)
-		(at 31.75 172.72 180)
+		(at 38.1 248.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2669,7 +4269,7 @@
 		)
 		(uuid "93ad037a-311e-4a57-bca7-57ea7b62317c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2853 172.72 0)
+			(at 32.6353 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +4303,7 @@
 	)
 	(global_label "R0"
 		(shape input)
-		(at 31.75 167.64 180)
+		(at 38.1 243.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2713,7 +4313,7 @@
 		)
 		(uuid "95cc4863-a195-4374-af7a-ac3431df25c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2853 167.64 0)
+			(at 32.6353 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +4325,7 @@
 	)
 	(global_label "R6"
 		(shape input)
-		(at 67.31 185.42 0)
+		(at 73.66 261.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2735,7 +4335,7 @@
 		)
 		(uuid "9d2a4648-9496-4313-850b-a2826e5cbc0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.7747 185.42 0)
+			(at 79.1247 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +4347,7 @@
 	)
 	(global_label "C2"
 		(shape input)
-		(at 31.75 180.34 180)
+		(at 38.1 256.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2757,7 +4357,7 @@
 		)
 		(uuid "9ef3bf13-129c-4c50-be06-9fa7738eddd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2853 180.34 0)
+			(at 32.6353 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +4391,7 @@
 	)
 	(global_label "RST"
 		(shape input)
-		(at 68.58 162.56 0)
+		(at 80.01 238.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2801,7 +4401,7 @@
 		)
 		(uuid "a12fc1b0-47ce-401b-96cc-b70b33804208")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.0123 162.56 0)
+			(at 86.4423 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +4413,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 105.41 163.83 0)
+		(at 125.73 237.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2823,7 +4423,7 @@
 		)
 		(uuid "b54bb150-fcf8-4566-a739-9705ee2fd857")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.2938 163.83 0)
+			(at 133.6138 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +4457,7 @@
 	)
 	(global_label "C4"
 		(shape input)
-		(at 67.31 177.8 0)
+		(at 73.66 254 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2867,7 +4467,7 @@
 		)
 		(uuid "be55234a-6a73-4caa-9496-992d63198304")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.7747 177.8 0)
+			(at 79.1247 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,6 +4534,28 @@
 		(uuid "cd11d7c7-2316-465c-adb3-4a26376d4b80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.49 19.9353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 123.19 101.6 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddbde5e3-ae02-4c56-9747-244cf16b1224")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 94.9862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +4633,7 @@
 	)
 	(global_label "C1"
 		(shape input)
-		(at 31.75 177.8 180)
+		(at 38.1 254 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3021,7 +4643,7 @@
 		)
 		(uuid "ec858ff0-51ad-4382-9c7b-6aa63e8abdff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2853 177.8 0)
+			(at 32.6353 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +4655,7 @@
 	)
 	(global_label "R5"
 		(shape input)
-		(at 67.31 172.72 0)
+		(at 73.66 248.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3043,7 +4665,7 @@
 		)
 		(uuid "f3fa35f6-1ece-4fa5-a8f7-b9dee57d5493")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.7747 172.72 0)
+			(at 79.1247 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,7 +4699,7 @@
 	)
 	(global_label "R3"
 		(shape input)
-		(at 67.31 170.18 0)
+		(at 73.66 246.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3087,7 +4709,7 @@
 		)
 		(uuid "fe9e79f4-2b17-4c72-9223-cfabb4153cd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.7747 170.18 0)
+			(at 79.1247 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,34 +4790,33 @@
 		)
 	)
 	(symbol
-		(lib_id "moketa:J_BATTERY")
-		(at 92.71 167.64 0)
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 151.13 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c520b37-d999-4491-9584-e15258ea8557")
-		(property "Reference" "J1"
-			(at 90.805 163.83 0)
+		(uuid "06652595-a41c-4eef-8bfd-ceac900b017a")
+		(property "Reference" "LED41"
+			(at 155.194 190.246 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.7366 0.7366)
 				)
 			)
 		)
 		(property "Value" "~"
-			(at 92.964 171.196 0)
+			(at 157.734 190.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.7366 0.7366)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 92.964 173.736 0)
+			(at 153.67 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +4825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 168.91 0)
+			(at 153.67 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +4834,148 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.456 171.196 0)
+			(at 151.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "af16c860-4558-4b20-9e14-4c66ec49e898")
+		)
+		(pin "4"
+			(uuid "eaaa280b-3bb0-4f38-90e8-217588a92f65")
+		)
+		(pin "2"
+			(uuid "5f0b8d84-53ae-489d-827c-8f8cb420af57")
+		)
+		(pin "1"
+			(uuid "a6c83b74-27c2-4133-8f7f-b5ed14db2699")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:GND")
+		(at 160.02 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08c1163e-a96c-4684-b71a-da972154651b")
+		(property "Reference" "#PWR07"
+			(at 160.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a906c6a-4a86-4e98-9766-51b0c8f6eafd")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:J_BATTERY")
+		(at 113.03 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c520b37-d999-4491-9584-e15258ea8557")
+		(property "Reference" "J1"
+			(at 111.125 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 113.284 244.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.284 247.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 112.776 244.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,25 +5069,17 @@
 		)
 	)
 	(symbol
-		(lib_id "moketa:SW_SLIDE")
-		(at 102.87 166.37 0)
+		(lib_id "moketa:GND")
+		(at 123.19 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0ddd3250-361d-4be5-99f7-caa43fdc3853")
-		(property "Reference" "SW44"
-			(at 100.33 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 103.124 160.782 0)
+		(uuid "0d5e9fd3-6351-4097-b637-aa9b1da6ad4b")
+		(property "Reference" "#PWR04"
+			(at 123.19 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,8 +5087,16 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "GND"
+			(at 123.19 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 103.124 175.514 0)
+			(at 123.19 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +5105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 166.37 0)
+			(at 123.19 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +5114,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 103.124 172.72 0)
+			(at 123.19 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a18cf18-611a-4bf4-babe-95a2c03eba65")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:SW_SLIDE")
+		(at 123.19 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ddd3250-361d-4be5-99f7-caa43fdc3853")
+		(property "Reference" "SW44"
+			(at 120.65 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 123.444 234.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.444 249.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.444 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,6 +5201,80 @@
 			(project ""
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "SW44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 135.89 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fd8320d-1d58-4990-a7e6-6bfef380de3c")
+		(property "Reference" "LED40"
+			(at 131.826 178.054 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 129.286 177.8 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f50d6d0d-eafa-4b71-808e-e17ceddf63b3")
+		)
+		(pin "4"
+			(uuid "d67ae8a4-38fe-44f9-a713-c826f01b05ff")
+		)
+		(pin "2"
+			(uuid "a5e05a8f-4d73-4043-9dba-83824d6edc3f")
+		)
+		(pin "1"
+			(uuid "7cef1b93-f621-4479-8ba5-7776d21f85e2")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED40")
 					(unit 1)
 				)
 			)
@@ -3448,32 +5350,33 @@
 		)
 	)
 	(symbol
-		(lib_id "moketa:U_PRO_MICRO")
-		(at 49.53 170.18 0)
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 109.22 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "15491683-d561-4f89-b99e-922a6bf1cfd5")
-		(property "Reference" "U1"
-			(at 49.53 149.86 0)
+		(uuid "12646662-0a9d-4731-ac3b-93062225d278")
+		(property "Reference" "LED6"
+			(at 105.156 113.284 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.7366 0.7366)
 				)
 			)
 		)
-		(property "Value" "Pro_Micro"
-			(at 49.53 152.4 0)
+		(property "Value" "~"
+			(at 102.616 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.7366 0.7366)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:U_PRO_MICRO"
-			(at 49.53 193.548 0)
+		(property "Footprint" ""
+			(at 106.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +5385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 170.18 0)
+			(at 106.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +5394,80 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.292 190.5 0)
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3237c9c6-95f9-4a8e-bd01-078dc15e0287")
+		)
+		(pin "4"
+			(uuid "09c59586-3818-4b80-913f-6bfefe3af607")
+		)
+		(pin "2"
+			(uuid "57f1c25e-470e-4186-9ff5-4b6ba4e4e0cd")
+		)
+		(pin "1"
+			(uuid "32fe9521-0e0f-4ffc-9c6b-cb81ec2aa1cf")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:U_PRO_MICRO")
+		(at 55.88 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15491683-d561-4f89-b99e-922a6bf1cfd5")
+		(property "Reference" "U1"
+			(at 55.88 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pro_Micro"
+			(at 55.88 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "moketa:U_PRO_MICRO"
+			(at 55.88 269.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 56.642 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,6 +5557,80 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 167.64 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16c0fc91-d1e8-43af-9f17-e0b8a2e6e3bf")
+		(property "Reference" "LED9"
+			(at 171.704 125.476 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 174.244 125.73 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "db15f73c-a87f-4a14-b739-fb3d0d62849e")
+		)
+		(pin "4"
+			(uuid "88ae634a-190e-46ae-9e53-b1a748170441")
+		)
+		(pin "2"
+			(uuid "298298ac-5851-4718-b664-4513a8af5a13")
+		)
+		(pin "1"
+			(uuid "78725ce6-5646-4893-94ef-7dcc0593495c")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:Diode")
 		(at 179.07 59.69 0)
 		(unit 1)
@@ -3652,7 +5702,7 @@
 	)
 	(symbol
 		(lib_id "moketa:GND")
-		(at 88.9 154.94 0)
+		(at 109.22 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3661,7 +5711,7 @@
 		(fields_autoplaced yes)
 		(uuid "19a15687-70ce-4c02-9dac-d291526fbe1e")
 		(property "Reference" "#PWR01"
-			(at 88.9 161.29 0)
+			(at 109.22 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +5720,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 160.02 0)
+			(at 109.22 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +5728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 154.94 0)
+			(at 109.22 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +5737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 154.94 0)
+			(at 109.22 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +5746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 154.94 0)
+			(at 109.22 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,6 +5761,154 @@
 			(project ""
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 33.02 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a50782b-d062-426b-97a8-b032ba34104d")
+		(property "Reference" "LED25"
+			(at 37.084 168.656 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 39.624 168.91 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5c30074c-78fd-482c-9f5b-c27ad66f7efb")
+		)
+		(pin "4"
+			(uuid "747eed33-db15-4430-acf4-6deb32808a6a")
+		)
+		(pin "2"
+			(uuid "230a7565-33e0-4924-acc4-65e7fb7579e1")
+		)
+		(pin "1"
+			(uuid "7adb4940-0599-45f3-905f-465c179a7a45")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 167.64 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ae9c821-c526-4715-8888-19f11d02fdd1")
+		(property "Reference" "LED21"
+			(at 171.704 147.066 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 174.244 147.32 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5312cdbb-4963-4dda-a935-07da4fe56557")
+		)
+		(pin "4"
+			(uuid "41d01586-41bb-4d68-9f35-ad224014420f")
+		)
+		(pin "2"
+			(uuid "fda0ed71-c006-479a-b10e-6f5267bcb4c1")
+		)
+		(pin "1"
+			(uuid "a0da98ba-22a4-43c0-b932-62020db3d9dd")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED21")
 					(unit 1)
 				)
 			)
@@ -3787,7 +5985,7 @@
 	)
 	(symbol
 		(lib_id "moketa:GND")
-		(at 26.67 162.56 270)
+		(at 33.02 238.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3796,7 +5994,7 @@
 		(fields_autoplaced yes)
 		(uuid "1dd69008-6d9d-434a-86c4-7dc739d16de2")
 		(property "Reference" "#PWR03"
-			(at 20.32 162.56 0)
+			(at 26.67 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,7 +6003,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 162.5599 90)
+			(at 29.21 238.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +6012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 162.56 0)
+			(at 33.02 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,7 +6021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 162.56 0)
+			(at 33.02 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +6030,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 162.56 0)
+			(at 33.02 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,6 +6465,154 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 48.26 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a5f553e-22bf-450b-b8c5-f80abaf9ad6b")
+		(property "Reference" "LED14"
+			(at 44.196 134.874 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.656 134.62 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4bf77b45-ca9f-49ca-b130-e6f9ddbc4212")
+		)
+		(pin "4"
+			(uuid "51f0d131-1594-4507-b5db-8eb2d431454d")
+		)
+		(pin "2"
+			(uuid "a279322b-ad8e-4a34-9549-8d3334c1f948")
+		)
+		(pin "1"
+			(uuid "22dac4c0-5f60-4d1a-a754-182ac49a4e00")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 93.98 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e3542ac-8ca6-4f9f-b6cd-21ed62630ace")
+		(property "Reference" "LED5"
+			(at 98.044 125.476 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 100.584 125.73 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d02e126a-edcf-4355-8f7b-f69843516daa")
+		)
+		(pin "4"
+			(uuid "902578c6-7f47-4ea7-896b-3c04974a60c8")
+		)
+		(pin "2"
+			(uuid "1a0aa783-de10-406a-88c6-0016c24b9fd1")
+		)
+		(pin "1"
+			(uuid "b9c70047-b5c7-434a-b522-a3b23a96d50f")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:Diode")
 		(at 120.65 44.45 0)
 		(unit 1)
@@ -4331,6 +6677,442 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:GND")
+		(at 86.36 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e98fcd3-1031-4a3a-8a0a-89b42bb2d0f3")
+		(property "Reference" "#PWR06"
+			(at 86.36 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b69d0fbb-726c-4891-acc4-c614d610fcd4")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 33.02 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f179089-b0a5-4945-9a34-856604796d0f")
+		(property "Reference" "LED13"
+			(at 37.084 147.066 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 39.624 147.32 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "706eb0dd-fb19-4617-babc-c85bb06c828a")
+		)
+		(pin "4"
+			(uuid "2c13bda3-260c-42fe-8adb-877aa5a39c20")
+		)
+		(pin "2"
+			(uuid "19ed65f1-4a78-46dd-9b54-3b1de2d82bb0")
+		)
+		(pin "1"
+			(uuid "3565dd39-cfb0-4761-b560-e550b3498cf2")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 166.37 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32c31317-9980-499d-b7c9-1de8813c79bb")
+		(property "Reference" "LED42"
+			(at 162.306 178.054 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 159.766 177.8 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "48c6e5b1-1028-4e8b-bff7-099624cf10dc")
+		)
+		(pin "4"
+			(uuid "9498ebd6-8a5c-4f08-a2f9-f631fd235832")
+		)
+		(pin "2"
+			(uuid "7041b01e-d1ee-4777-8f6d-3b4ad33aeb5c")
+		)
+		(pin "1"
+			(uuid "cd688fa7-0780-4a3b-b991-06c75e5a4d7c")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 152.4 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34f31f78-3bf8-4d88-a21b-13226b860a40")
+		(property "Reference" "LED20"
+			(at 148.336 134.874 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 145.796 134.62 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f9ac9f13-0bf7-4989-8565-a96c2c624463")
+		)
+		(pin "4"
+			(uuid "7b877053-cc8f-404c-bae6-6a1f6c0e19d0")
+		)
+		(pin "2"
+			(uuid "03d3442b-91d6-44d5-a3f3-1e58994291f4")
+		)
+		(pin "1"
+			(uuid "37520a5b-b738-413b-98c6-301680a22e58")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 63.5 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "352d51e6-0faf-4060-bc18-f368c93d5a05")
+		(property "Reference" "LED3"
+			(at 67.564 125.476 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 70.104 125.73 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cf2a724a-d02c-4134-aab8-6907d72f976d")
+		)
+		(pin "4"
+			(uuid "bb7f3d6c-1b23-46f4-acb6-2f523b670175")
+		)
+		(pin "2"
+			(uuid "653d7dca-48ab-4a3f-b4b3-4befe7416f43")
+		)
+		(pin "1"
+			(uuid "5bce9e9d-c8c7-472f-a1f7-00f5868a1623")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 152.4 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35d2c2cd-a9ff-4fe2-b6c6-de02b66b811d")
+		(property "Reference" "LED32"
+			(at 148.336 156.464 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 145.796 156.21 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eddd1320-63ac-491f-aae6-96691e45dbcd")
+		)
+		(pin "4"
+			(uuid "665320d4-f379-403b-9076-7e6ed0b39f10")
+		)
+		(pin "2"
+			(uuid "36fc2a62-7630-4d96-a760-fb6da4d9fdd6")
+		)
+		(pin "1"
+			(uuid "2547dc67-ae5c-409d-b7e8-b983b7108460")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED32")
 					(unit 1)
 				)
 			)
@@ -4547,7 +7329,7 @@
 	)
 	(symbol
 		(lib_id "moketa:GND")
-		(at 67.31 160.02 90)
+		(at 73.66 236.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4556,7 +7338,7 @@
 		(fields_autoplaced yes)
 		(uuid "3af83179-fb8c-4a93-8196-3f20a14a55be")
 		(property "Reference" "#PWR02"
-			(at 73.66 160.02 0)
+			(at 80.01 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +7347,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 160.0199 90)
+			(at 77.47 236.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +7356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 160.02 0)
+			(at 73.66 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +7365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 160.02 0)
+			(at 73.66 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +7374,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 160.02 0)
+			(at 73.66 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,6 +7459,80 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 182.88 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f0d27c4-1f9e-464f-a149-cffcd11f22c5")
+		(property "Reference" "LED34"
+			(at 178.816 156.464 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 176.276 156.21 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dec5882c-4a6c-4149-8a62-fc900a16fce3")
+		)
+		(pin "4"
+			(uuid "12d36886-2b29-43d9-bdc9-d9743e0e08cd")
+		)
+		(pin "2"
+			(uuid "b692c235-68bb-430c-9e65-099d5439134f")
+		)
+		(pin "1"
+			(uuid "b4b1b857-8788-439b-b365-2f791a9fc48e")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED34")
 					(unit 1)
 				)
 			)
@@ -5309,6 +8165,80 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 48.26 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ccc5525-3da4-4b5b-8d27-2a5bba74a57c")
+		(property "Reference" "LED26"
+			(at 44.196 156.464 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.656 156.21 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "089dbd04-a90c-4261-b1c8-4ba9c1fde151")
+		)
+		(pin "4"
+			(uuid "d9fbed0d-40f4-4442-9de9-6e98c8ddd1f5")
+		)
+		(pin "2"
+			(uuid "739e3f95-8ca1-4e8c-8bd5-e632244d7b0f")
+		)
+		(pin "1"
+			(uuid "8ac466a2-ae4f-47a5-82b0-250ba6e382d3")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:SW_PUSH")
 		(at 190.5 40.64 0)
 		(unit 1)
@@ -5517,6 +8447,154 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 137.16 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b21732c-3ad6-4c8f-ab4d-f723bc25834a")
+		(property "Reference" "LED19"
+			(at 141.224 147.066 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 143.764 147.32 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cecc35f6-270b-4e77-b6f2-f3b891e72cee")
+		)
+		(pin "4"
+			(uuid "a7e1e3fa-fb5a-4e1f-9a26-baa7534a816c")
+		)
+		(pin "2"
+			(uuid "b359e2ee-4722-4ad9-9944-b3aa6ca15e31")
+		)
+		(pin "1"
+			(uuid "df66ced7-9932-44c1-8f62-cff3df53156b")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 93.98 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5be59bd0-e59d-4ef1-88b1-2e1b64165dc0")
+		(property "Reference" "LED38"
+			(at 89.916 178.054 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 87.376 177.8 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "72d3659f-2388-45cf-a6c3-ff85e0621c22")
+		)
+		(pin "4"
+			(uuid "dc150496-5816-44c8-bb91-5fe1935c5870")
+		)
+		(pin "2"
+			(uuid "48c60c1c-ecbd-4f3d-a334-a2a722f5cfd4")
+		)
+		(pin "1"
+			(uuid "5a2c0c44-1b53-4e47-b12d-c5a006d203cc")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:SW_PUSH")
 		(at 46.99 55.88 0)
 		(unit 1)
@@ -5580,6 +8658,80 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 78.74 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "604c7e66-c045-4fe7-ba73-cf01551f3986")
+		(property "Reference" "LED37"
+			(at 82.804 190.246 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 85.344 190.5 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3eefa581-8638-4de7-92dc-c1f48abd90a6")
+		)
+		(pin "4"
+			(uuid "e45fdcc5-8848-4019-bfc6-ddd1edad62bb")
+		)
+		(pin "2"
+			(uuid "c45dc86d-7663-4865-86a3-ab65a129c1e3")
+		)
+		(pin "1"
+			(uuid "7739635b-bf20-4557-894e-04a97e28c6bd")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED37")
 					(unit 1)
 				)
 			)
@@ -5864,6 +9016,80 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 198.12 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71053198-ab8c-43dd-9a65-9799e3dab458")
+		(property "Reference" "LED11"
+			(at 202.184 125.476 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 204.724 125.73 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6d296c02-7dc3-4d08-a886-9b30cc3bb69f")
+		)
+		(pin "4"
+			(uuid "bde45323-5634-4ec5-9896-ec85d592aa35")
+		)
+		(pin "2"
+			(uuid "ae670164-50f2-43a2-9c83-df42e7049007")
+		)
+		(pin "1"
+			(uuid "1502a8ae-4a91-4b17-bf42-4816bb8eac8a")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:Diode")
 		(at 52.07 59.69 0)
 		(unit 1)
@@ -5997,6 +9223,72 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:GND")
+		(at 190.5 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7436aaad-bfeb-4da1-8abb-b429f96f8ebe")
+		(property "Reference" "#PWR08"
+			(at 190.5 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9080f18-01ea-4434-85c7-caae43b23a56")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6351,6 +9643,80 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 182.88 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c3d44d1-8ac2-42ff-b769-3f185d11112b")
+		(property "Reference" "LED10"
+			(at 178.816 113.284 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 176.276 113.03 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e0ba374d-1f20-4168-820f-6c496ae834df")
+		)
+		(pin "4"
+			(uuid "0bbcd6e3-418c-475a-b5fe-e9db55e438f0")
+		)
+		(pin "2"
+			(uuid "3aa97e2b-bf01-45d5-a462-752a14d75fdf")
+		)
+		(pin "1"
+			(uuid "deade9b9-3d58-4d98-9142-d3bc5c603534")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:SW_PUSH")
 		(at 97.79 71.12 0)
 		(unit 1)
@@ -6414,6 +9780,228 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 93.98 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ccfc7f5-38dd-48ad-9487-8caaa3f91a3f")
+		(property "Reference" "LED29"
+			(at 98.044 168.656 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 100.584 168.91 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6401d6b9-cb35-46b3-87ba-62ec2d3ac56d")
+		)
+		(pin "4"
+			(uuid "cbc5de07-487a-4c14-b035-c046a5b33586")
+		)
+		(pin "2"
+			(uuid "7d168046-fdbe-430f-9468-296818d61747")
+		)
+		(pin "1"
+			(uuid "8badb0dc-aba0-4c6a-896a-fa1e499b7a56")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 137.16 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ed36e73-e4a5-4998-b36c-dbf31388f7c5")
+		(property "Reference" "LED31"
+			(at 141.224 168.656 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 143.764 168.91 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a70c3b04-0f11-4428-9232-8f0651b5f955")
+		)
+		(pin "4"
+			(uuid "009b5d7b-ed59-4aef-8df2-7822944caa06")
+		)
+		(pin "2"
+			(uuid "fadb334d-9f7d-4917-83ea-eb57e6bc0e12")
+		)
+		(pin "1"
+			(uuid "4256524c-be65-42d3-8cbe-b04a1cff4a60")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 182.88 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "812ea568-1ce4-48b0-8d0e-a00b003c1ea3")
+		(property "Reference" "LED22"
+			(at 178.816 134.874 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 176.276 134.62 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c46b4b52-575e-4fe8-8a02-f2ed005c85dd")
+		)
+		(pin "4"
+			(uuid "c2b09143-037b-4def-af27-1a1514919e51")
+		)
+		(pin "2"
+			(uuid "2c739af5-0e7d-4f9b-b546-a309fd7dd632")
+		)
+		(pin "1"
+			(uuid "285c8380-633e-438a-8e27-7c9b232a3306")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED22")
 					(unit 1)
 				)
 			)
@@ -6490,6 +10078,80 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 213.36 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8365c06c-c0d1-410b-90a2-ba2f8ccb89b9")
+		(property "Reference" "LED12"
+			(at 209.296 113.284 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 206.756 113.03 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e043ffe3-a2c0-4aeb-9040-ee018725d38f")
+		)
+		(pin "4"
+			(uuid "aaf4b678-cbcc-41e7-8fd1-0c0b3e08655f")
+		)
+		(pin "2"
+			(uuid "8fb85316-2037-4e53-aee3-4a2e9ad5edfb")
+		)
+		(pin "1"
+			(uuid "6db0c400-0dda-4290-a074-1c053c20dd45")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:Diode")
 		(at 195.58 59.69 0)
 		(unit 1)
@@ -6554,6 +10216,146 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:GND")
+		(at 55.88 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8af22ef0-8d44-4f7b-884e-087a50fdd8d6")
+		(property "Reference" "#PWR05"
+			(at 55.88 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b3edfd4-60f2-4f8e-a1a3-2ae1aacec1ba")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 152.4 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b0c213b-63cd-4f20-8c89-1dc075070ff2")
+		(property "Reference" "LED8"
+			(at 148.336 113.284 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 145.796 113.03 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1a741b97-665c-4d71-89c2-4a38849a5ad1")
+		)
+		(pin "4"
+			(uuid "bee0d92c-532d-4962-b153-a3ad911a1adc")
+		)
+		(pin "2"
+			(uuid "71f05341-6647-402f-9241-fb1882613e94")
+		)
+		(pin "1"
+			(uuid "2b5d4e0c-8da8-487a-907e-5708f2748da8")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -6629,6 +10431,154 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 33.02 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98b257c1-6ae1-4ae3-aec7-4e44718b8858")
+		(property "Reference" "LED1"
+			(at 37.084 125.476 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 39.624 125.73 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "155e6b25-2622-402c-8511-d2250baa71fe")
+		)
+		(pin "4"
+			(uuid "1a894e40-e569-4baa-935c-22035285b6ad")
+		)
+		(pin "2"
+			(uuid "7628402e-5c80-4a1d-905b-754c5f09a0b4")
+		)
+		(pin "1"
+			(uuid "f121d280-e88b-4ba3-8aa0-fd11804c8f07")
+		)
+		(instances
+			(project ""
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 109.22 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99bee4c5-8103-4206-bf07-29520dfc89cb")
+		(property "Reference" "LED39"
+			(at 113.284 190.246 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 115.824 190.5 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3b0f7fe8-f004-4942-a5ef-4b30f6c8e7ef")
+		)
+		(pin "4"
+			(uuid "c3352fde-2c75-4533-b208-4dc4df7cbaac")
+		)
+		(pin "2"
+			(uuid "2341a720-c4da-4d9c-b7f0-f225f2517190")
+		)
+		(pin "1"
+			(uuid "fc0bb6b7-a69d-4853-b28a-317d22e3cbd3")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:SW_PUSH")
 		(at 224.79 40.64 0)
 		(unit 1)
@@ -6692,6 +10642,80 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 93.98 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ecb544b-9d6a-43cb-9a2e-46ea0b287687")
+		(property "Reference" "LED17"
+			(at 98.044 147.066 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 100.584 147.32 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fccd9aef-7723-4817-92c8-3a3679ff7751")
+		)
+		(pin "4"
+			(uuid "79a7f03f-6360-44a5-bdcf-5d122db976fe")
+		)
+		(pin "2"
+			(uuid "a57367d0-b2c9-48ec-8114-fd11e2b9402a")
+		)
+		(pin "1"
+			(uuid "dcd490b3-f798-4d4b-b0eb-9512adc05f9b")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED17")
 					(unit 1)
 				)
 			)
@@ -7184,6 +11208,80 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 198.12 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b22ece8f-f335-4aba-9ce7-65ff0c688062")
+		(property "Reference" "LED23"
+			(at 202.184 147.066 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 204.724 147.32 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a03f8aaa-29e3-4ee0-ba67-e150bce4b802")
+		)
+		(pin "4"
+			(uuid "8f0f1aa1-eb07-46b7-b283-bb671b95b542")
+		)
+		(pin "2"
+			(uuid "074691e6-81d2-42d1-9b90-344700943dbb")
+		)
+		(pin "1"
+			(uuid "2f13c5b4-0910-4a43-bc91-692fce3dfc82")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:Diode")
 		(at 102.87 59.69 0)
 		(unit 1)
@@ -7532,6 +11630,80 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 213.36 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb83189f-8233-44de-a287-9db5eac4ca47")
+		(property "Reference" "LED36"
+			(at 209.296 156.464 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 206.756 156.21 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6deb2c6d-4a4b-4b44-ac48-4d01a18efb5f")
+		)
+		(pin "4"
+			(uuid "3235a027-9be6-47fd-9855-31cdf49c00a8")
+		)
+		(pin "2"
+			(uuid "96d6bcbb-1c0b-4b18-b3f5-99eb680ad427")
+		)
+		(pin "1"
+			(uuid "d114da73-6e38-40f5-b898-38bc392f6725")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:Diode")
 		(at 85.09 29.21 0)
 		(unit 1)
@@ -7812,6 +11984,80 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 78.74 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c743efdc-fca5-4fd5-b0a2-2172bf39d74a")
+		(property "Reference" "LED4"
+			(at 74.676 113.284 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 72.136 113.03 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "321ae8ac-2a34-4dec-9301-54b78f9e8df0")
+		)
+		(pin "4"
+			(uuid "e430b065-499f-4545-a853-89d96a2a20ba")
+		)
+		(pin "2"
+			(uuid "68cfe68c-d3cc-4261-a8d2-05f6498d9c06")
+		)
+		(pin "1"
+			(uuid "b453149d-0fc8-42da-9a11-dca78cf8e924")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:Diode")
 		(at 85.09 44.45 0)
 		(unit 1)
@@ -7951,6 +12197,80 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 137.16 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce4d6a54-57df-47ce-b1c3-032514dd31f4")
+		(property "Reference" "LED7"
+			(at 141.224 125.476 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 143.764 125.73 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bb33d603-5d00-4644-8cfc-2212064cc6a8")
+		)
+		(pin "4"
+			(uuid "186aa593-7461-4921-a56d-de101cc387bb")
+		)
+		(pin "2"
+			(uuid "79eb3047-768e-488c-8ba0-e4bce24601c7")
+		)
+		(pin "1"
+			(uuid "0121210a-e343-42f2-9da8-2d1c6d7f679c")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:SW_PUSH")
 		(at 224.79 55.88 0)
 		(unit 1)
@@ -8014,6 +12334,228 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 78.74 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0bede8c-7875-4cbf-892e-3551a460b591")
+		(property "Reference" "LED16"
+			(at 74.676 134.874 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 72.136 134.62 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e22a1b2b-8199-4523-9e54-c92ac7ab7f07")
+		)
+		(pin "4"
+			(uuid "58f6d503-262e-4e2b-975c-f39bc868216c")
+		)
+		(pin "2"
+			(uuid "e95309bb-c841-46da-9273-b3d4f15011f2")
+		)
+		(pin "1"
+			(uuid "ac675973-b46b-4333-8a8c-aee3fd47034a")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 109.22 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1b2a9a6-db0b-4e85-bc6e-8852e5956ff7")
+		(property "Reference" "LED18"
+			(at 105.156 134.874 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 102.616 134.62 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8787564d-9dce-49af-84a5-e198c8f06b08")
+		)
+		(pin "4"
+			(uuid "97ba890f-dfdc-41e9-8de4-541f1e54a138")
+		)
+		(pin "2"
+			(uuid "c3bd2761-d168-4adf-abea-0a2bbd317bbd")
+		)
+		(pin "1"
+			(uuid "18f60d3e-f6b7-4ef3-a4c9-7e2dcb5b0fbd")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 48.26 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3ff3d54-3381-4707-9f91-5affdf7651f7")
+		(property "Reference" "LED2"
+			(at 44.196 113.284 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.656 113.03 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1073b1ec-66b9-4f4b-acfd-334bd01cc693")
+		)
+		(pin "4"
+			(uuid "ca79a747-52eb-4b26-83b0-1ea4da7bd64e")
+		)
+		(pin "2"
+			(uuid "249966aa-4cf9-4ccb-a5a1-c5b7fa9d2dc3")
+		)
+		(pin "1"
+			(uuid "9eef7c3c-3cd1-4048-87ad-cf7c1086d1ec")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -8362,6 +12904,80 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 213.36 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da6bb2d8-ce53-4064-a4fe-454ed2e78915")
+		(property "Reference" "LED24"
+			(at 209.296 134.874 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 206.756 134.62 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a845dfa3-1656-4dfe-aee1-09d49af28787")
+		)
+		(pin "4"
+			(uuid "a9de1592-005c-47b3-9625-7632400407d0")
+		)
+		(pin "2"
+			(uuid "8e21ddd8-0252-4a84-b0df-bafec862e75f")
+		)
+		(pin "1"
+			(uuid "a5c696ad-fbf8-4419-a4dc-412599275eba")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED24")
 					(unit 1)
 				)
 			)
@@ -8785,6 +13401,228 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 109.22 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8ada49b-e6a6-4ed6-a457-7aa31cd7cf0a")
+		(property "Reference" "LED30"
+			(at 105.156 156.464 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 102.616 156.21 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3714984c-fcc0-4a02-974a-71508364892f")
+		)
+		(pin "4"
+			(uuid "51513108-da75-4835-bcb2-cb4cdf972e22")
+		)
+		(pin "2"
+			(uuid "739cd858-e57d-4bb6-961a-66920474cac6")
+		)
+		(pin "1"
+			(uuid "f4d53ac8-4f4e-4b82-b1a9-946b34a2f5c4")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 78.74 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8ee2cb9-c7a6-4aef-b1ba-1de9e1998d43")
+		(property "Reference" "LED28"
+			(at 74.676 156.464 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 72.136 156.21 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ec284bce-4b0a-492d-ae12-b915dd230175")
+		)
+		(pin "4"
+			(uuid "420e14da-80d5-460f-aff4-11037823ba9a")
+		)
+		(pin "2"
+			(uuid "ed3cf616-611a-4dac-bff3-7fd887d0659d")
+		)
+		(pin "1"
+			(uuid "ad0f5ce1-a75f-42c4-8854-f58e74998ac8")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 198.12 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebfe4e64-a3c1-4679-bb78-41e9693beee1")
+		(property "Reference" "LED35"
+			(at 202.184 168.656 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 204.724 168.91 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "af980dda-4103-48ed-b62d-24cd52a1cc9a")
+		)
+		(pin "4"
+			(uuid "984b54e7-ff1b-4133-a95f-1a61984858fa")
+		)
+		(pin "2"
+			(uuid "5b30a3f4-8c6d-41c3-b83e-b490224cdc1b")
+		)
+		(pin "1"
+			(uuid "47947136-6fa6-4f6e-9a1a-664009b292aa")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:SW_PUSH")
 		(at 157.48 40.64 0)
 		(unit 1)
@@ -8923,8 +13761,82 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 63.5 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec804ec0-86b6-4614-91a6-db22500f7df7")
+		(property "Reference" "LED27"
+			(at 67.564 168.656 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 70.104 168.91 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ae713a44-da37-4df1-ad16-6fe81dab949f")
+		)
+		(pin "4"
+			(uuid "3b86b893-334c-428d-8bf4-cecaa986ed48")
+		)
+		(pin "2"
+			(uuid "a8f551d3-2abf-4147-9816-50cc1edc29c3")
+		)
+		(pin "1"
+			(uuid "df2c65a4-6e82-423e-961d-3c3565a44cc2")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:SW_TACT")
-		(at 93.98 154.94 0)
+		(at 114.3 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8932,7 +13844,7 @@
 		(dnp no)
 		(uuid "ece8e5ad-dcf8-4146-b3da-e7b235c3169e")
 		(property "Reference" "SW43"
-			(at 93.98 149.86 0)
+			(at 114.3 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8940,7 +13852,7 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 93.98 154.94 0)
+			(at 114.3 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,7 +13862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 154.94 0)
+			(at 114.3 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +13871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 154.94 0)
+			(at 114.3 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8968,7 +13880,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 154.94 0)
+			(at 114.3 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9270,6 +14182,80 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 63.5 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f98e094e-0981-462a-9da8-f67a4a111cde")
+		(property "Reference" "LED15"
+			(at 67.564 147.066 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 70.104 147.32 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f5ae48d2-7d46-450a-ac6b-6260c92cce3f")
+		)
+		(pin "4"
+			(uuid "dadaf19a-c0c3-45ed-9736-a9f3c423752d")
+		)
+		(pin "2"
+			(uuid "ab6762d9-63e3-4017-a31b-db78dbf6ef3d")
+		)
+		(pin "1"
+			(uuid "01295a94-0e82-4fc2-a915-591262d98bee")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:SW_PUSH")
 		(at 46.99 40.64 0)
 		(unit 1)
@@ -9403,6 +14389,80 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:YS-SK6812MINI-E")
+		(at 167.64 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb3e52ec-3274-4ddd-b3f5-01c7a366ab7a")
+		(property "Reference" "LED33"
+			(at 171.704 168.656 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 174.244 168.91 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b03bbe7e-c6ef-414c-b183-88e2cda54d6a")
+		)
+		(pin "4"
+			(uuid "f0a8b494-b219-40d3-92ce-aa910c68bae7")
+		)
+		(pin "2"
+			(uuid "fb4e69d9-67fd-4ea8-a9c2-5336b62f8a69")
+		)
+		(pin "1"
+			(uuid "4258cb68-d78c-4f59-8ccc-f2fffdc0cafd")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "LED33")
 					(unit 1)
 				)
 			)
