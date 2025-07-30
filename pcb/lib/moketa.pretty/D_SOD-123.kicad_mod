@@ -104,17 +104,17 @@
 		(layer "F.Fab")
 		(uuid "11b126a4-d888-4e59-90c5-7906f9115d4d")
 	)
-	(pad "1" smd roundrect
+	(pad "1" smd oval
 		(at -1.65 0)
 		(size 1.2 1.2)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(roundrect_rratio 0.25)
 		(uuid "8ca7cf40-9887-436c-bea9-a303f4626eef")
 	)
-	(pad "2" smd circle
+	(pad "2" smd roundrect
 		(at 1.65 0)
 		(size 1.2 1.2)
 		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.2083333333)
 		(uuid "6df6f7bc-2215-4f91-8920-244285a2df55")
 	)
 	(group ""
