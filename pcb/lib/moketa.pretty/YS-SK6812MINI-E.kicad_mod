@@ -6,6 +6,7 @@
 	(property "Reference" "LED**"
 		(at 0.1524 0.1016 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "ba46b0a5-f899-4008-9671-f17d7ae41463")
 		(effects
 			(font

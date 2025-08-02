@@ -6,6 +6,7 @@
 	(property "Reference" "D**"
 		(at 4.064 0 180)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "4805f348-8a63-42d2-9189-a9bc20b4c3d2")
 		(effects
 			(font
