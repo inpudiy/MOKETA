@@ -5303,7 +5303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "moketa:BSI-10H"
+		(property "Footprint" "moketa:MSK-12C02"
 			(at 123.444 249.174 0)
 			(effects
 				(font
