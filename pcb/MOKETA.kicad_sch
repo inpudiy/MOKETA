@@ -5,6 +5,911 @@
 	(uuid "9e45a776-7007-48ff-b543-dc98423173b7")
 	(paper "A3")
 	(lib_symbols
+		(symbol "moketa:CONN_01x20"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_01x20_1_1"
+				(polyline
+					(pts
+						(xy -1.27 22.86) (xy -0.508 22.86)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 20.32) (xy -0.508 20.32)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 17.78) (xy -0.508 17.78)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 15.24) (xy -0.508 15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 12.7) (xy -0.508 12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 10.16) (xy -0.508 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -0.508 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -0.508 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -0.508 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -15.24) (xy -0.508 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -17.78) (xy -0.508 -17.78)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -20.32) (xy -0.508 -20.32)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -22.86) (xy -0.508 -22.86)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -25.4) (xy -0.508 -25.4)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 22.352)
+					(mid -0.5058 22.86)
+					(end 0 23.368)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 19.812)
+					(mid -0.5058 20.32)
+					(end 0 20.828)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 17.272)
+					(mid -0.5058 17.78)
+					(end 0 18.288)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 14.732)
+					(mid -0.5058 15.24)
+					(end 0 15.748)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 12.192)
+					(mid -0.5058 12.7)
+					(end 0 13.208)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 9.652)
+					(mid -0.5058 10.16)
+					(end 0 10.668)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 7.112)
+					(mid -0.5058 7.62)
+					(end 0 8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -10.668)
+					(mid -0.5058 -10.16)
+					(end 0 -9.652)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -13.208)
+					(mid -0.5058 -12.7)
+					(end 0 -12.192)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -15.748)
+					(mid -0.5058 -15.24)
+					(end 0 -14.732)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -18.288)
+					(mid -0.5058 -17.78)
+					(end 0 -17.272)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -20.828)
+					(mid -0.5058 -20.32)
+					(end 0 -19.812)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -23.368)
+					(mid -0.5058 -22.86)
+					(end 0 -22.352)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -25.908)
+					(mid -0.5058 -25.4)
+					(end 0 -24.892)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 22.86 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 20.32 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 17.78 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 15.24 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 0)
+					(length 3.81)
+					(name "Pin_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -20.32 0)
+					(length 3.81)
+					(name "Pin_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -22.86 0)
+					(length 3.81)
+					(name "Pin_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -25.4 0)
+					(length 3.81)
+					(name "Pin_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "moketa:Diode"
 			(pin_numbers
 				(hide yes)
@@ -355,6 +1260,293 @@
 						(effects
 							(font
 								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "moketa:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "moketa:RESISTOR"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RESISTOR_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RESISTOR_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2261,6 +3453,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 229.87) (xy 162.56 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b54554-28ee-4be1-a3c5-20c925c92b40")
+	)
+	(wire
+		(pts
+			(xy 160.02 237.49) (xy 162.56 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "121f2f96-d687-4e84-b86a-b6b6a66661a8")
+	)
+	(wire
+		(pts
 			(xy 93.98 176.53) (xy 109.22 176.53)
 		)
 		(stroke
@@ -2348,6 +3560,16 @@
 			(type default)
 		)
 		(uuid "1d0c513c-46cd-482f-981e-0e3a76c9aafa")
+	)
+	(wire
+		(pts
+			(xy 80.01 259.08) (xy 73.66 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5a9bef-d38b-4e0a-8f25-d150c4ea580a")
 	)
 	(wire
 		(pts
@@ -2658,6 +3880,16 @@
 			(type default)
 		)
 		(uuid "4442bd4f-cff2-4a4d-bc89-318a94f76e44")
+	)
+	(wire
+		(pts
+			(xy 33.02 261.62) (xy 38.1 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450c9070-4370-41c2-b798-9d598a49a146")
 	)
 	(wire
 		(pts
@@ -3161,6 +4393,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 236.22) (xy 38.1 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837aed1a-c735-4fb3-bfd5-d4702c543527")
+	)
+	(wire
+		(pts
 			(xy 167.64 154.94) (xy 182.88 154.94)
 		)
 		(stroke
@@ -3238,6 +4480,16 @@
 			(type default)
 		)
 		(uuid "8bd74cf6-eef1-42d9-b11f-c6699052e722")
+	)
+	(wire
+		(pts
+			(xy 160.02 222.25) (xy 162.56 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db11007-4a12-4cb6-adf7-7e88f8e0c7a9")
 	)
 	(wire
 		(pts
@@ -3561,6 +4813,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 246.38) (xy 162.56 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6136b51-4952-4d99-a749-c7e9ba4e4a50")
+	)
+	(wire
+		(pts
 			(xy 123.19 196.85) (xy 123.19 194.31)
 		)
 		(stroke
@@ -3628,6 +4890,16 @@
 			(type default)
 		)
 		(uuid "c1520507-3200-4aa3-9272-bf33ea9ec1a6")
+	)
+	(wire
+		(pts
+			(xy 33.02 259.08) (xy 38.1 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ac93cd-9740-4d2c-975b-8656c77eca18")
 	)
 	(wire
 		(pts
@@ -3959,6 +5231,28 @@
 		)
 		(uuid "ff861419-52d5-4fe6-abca-382309bd7cff")
 	)
+	(global_label "LED2"
+		(shape input)
+		(at 33.02 259.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00b5821f-3f6f-4de9-92eb-b8da94152fec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.3782 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "C4"
 		(shape input)
 		(at 92.71 25.4 90)
@@ -3977,6 +5271,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED4"
+		(shape input)
+		(at 154.94 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01ef9804-1294-4468-b56c-ae57d6f9e755")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.2982 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4135,6 +5451,28 @@
 			)
 		)
 	)
+	(global_label "LED2"
+		(shape input)
+		(at 154.94 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "398edc38-66f6-41b5-998f-fd1a44a88a8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.2982 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "C1"
 		(shape input)
 		(at 168.91 25.4 90)
@@ -4179,6 +5517,28 @@
 			)
 		)
 	)
+	(global_label "LED4"
+		(shape input)
+		(at 80.01 259.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53bf8436-9979-4708-9bb2-7a748bf49822")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.6518 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R4"
 		(shape input)
 		(at 120.65 63.5 0)
@@ -4201,7 +5561,7 @@
 			)
 		)
 	)
-	(global_label "LED"
+	(global_label "LEDS"
 		(shape input)
 		(at 109.22 127 0)
 		(fields_autoplaced yes)
@@ -4213,7 +5573,7 @@
 		)
 		(uuid "5bbacdd9-a9ef-4ac7-9d97-a8ca6d50bc0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.6523 127 0)
+			(at 116.8618 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +5583,7 @@
 			)
 		)
 	)
-	(global_label "LED"
+	(global_label "LEDS"
 		(shape input)
 		(at 38.1 233.68 180)
 		(fields_autoplaced yes)
@@ -4235,7 +5595,7 @@
 		)
 		(uuid "5c02aa75-a093-4e98-ac64-9329670dd8fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.6677 233.68 0)
+			(at 30.4582 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,6 +5623,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED1"
+		(shape input)
+		(at 31.75 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65551f19-94b1-48f3-8780-6f0d0fd7b0d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.1082 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4311,6 +5693,28 @@
 			)
 		)
 	)
+	(global_label "LED3"
+		(shape input)
+		(at 33.02 261.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fc1d6ce-e273-4497-bb98-c220fba3ba42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.3782 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "C3"
 		(shape input)
 		(at 73.66 251.46 0)
@@ -4351,6 +5755,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED1"
+		(shape input)
+		(at 154.94 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "858366fa-34b1-4a85-a263-cfe4908b9d86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.2982 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4681,6 +6107,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED3"
+		(shape input)
+		(at 154.94 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcf40537-2aff-427c-bf1d-0da6d05d7e40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.2982 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5417,6 +6865,73 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "LED40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:GND")
+		(at 167.64 229.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "103ae4be-abb9-4f6c-bbef-5c68e346a99b")
+		(property "Reference" "#PWR012"
+			(at 173.99 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 229.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10ae26c1-577b-4d3a-ba8f-0839794cd915")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6331,6 +7846,76 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:RESISTOR")
+		(at 157.48 246.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f9b130-9cd4-4743-aa16-f001485f4d3e")
+		(property "Reference" "R4"
+			(at 157.48 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 158.496 245.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "moketa:R_1206_3216"
+			(at 157.48 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d3fe378-5b99-4d80-ae56-a0ca1d88d826")
+		)
+		(pin "1"
+			(uuid "44e4a3de-c539-4b53-8ae4-9c84fd9be232")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:SW_PUSH")
 		(at 30.48 40.64 0)
 		(unit 1)
@@ -7187,6 +8772,76 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:LED")
+		(at 165.1 229.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3541b005-6dc1-4e00-9711-00e9757bb8d2")
+		(property "Reference" "D44"
+			(at 165.0365 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 169.545 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "moketa:LED_1206"
+			(at 165.1 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "393735d8-509d-4df5-bace-61456f2ddc40")
+		)
+		(pin "1"
+			(uuid "49753b63-0b00-4b46-8d23-5bd2f749a12f")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:YS-SK6812MINI-E")
 		(at 152.4 162.56 180)
 		(unit 1)
@@ -7751,6 +9406,73 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:GND")
+		(at 167.64 246.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4102ceb1-2ac0-4018-b98e-230204837def")
+		(property "Reference" "#PWR014"
+			(at 173.99 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 246.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8535c28-c227-4add-8b4f-5c86142d5ca1")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:SW_PUSH")
 		(at 157.48 71.12 0)
 		(unit 1)
@@ -8022,6 +9744,130 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:CONN_01x20")
+		(at 209.55 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45fcddd5-3a88-445c-80d1-18b058071aa5")
+		(property "Reference" "J3"
+			(at 210.82 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 209.55 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "moketa:FFC_CMD_1x20_P0.5mm"
+			(at 209.55 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "20"
+			(uuid "4c20ef2e-f3aa-4505-b234-fb3d27aa0c98")
+		)
+		(pin "5"
+			(uuid "4ef563f4-fc54-4fd8-a3b5-5996617c266f")
+		)
+		(pin "2"
+			(uuid "55898154-12ed-4287-9780-638e0fc71302")
+		)
+		(pin "18"
+			(uuid "3e53fefa-8528-4282-8a5d-9bf36786e4f5")
+		)
+		(pin "8"
+			(uuid "94731e58-eae2-46d9-a59e-ce45f89db363")
+		)
+		(pin "10"
+			(uuid "e64dafef-e67e-41e1-8c9b-54a69f4e7455")
+		)
+		(pin "4"
+			(uuid "c9bb08e9-23a0-4826-bb8e-fb78a607b4a7")
+		)
+		(pin "12"
+			(uuid "64e66a86-06b4-4a55-832a-9af89cc18ee6")
+		)
+		(pin "17"
+			(uuid "32613edd-8c55-421c-aa42-34f239a3e74f")
+		)
+		(pin "7"
+			(uuid "ba1c4c84-0d5f-4274-804c-94619fd6c737")
+		)
+		(pin "6"
+			(uuid "ca755a24-5464-4cd9-8fd7-171350af4a1e")
+		)
+		(pin "13"
+			(uuid "a6576ec7-dd3c-462e-9c4c-73ccb4216d57")
+		)
+		(pin "9"
+			(uuid "8c70d4b7-25a3-47e6-af86-e4ea6675734a")
+		)
+		(pin "19"
+			(uuid "f698e460-18fd-4880-83dd-86ba785328e8")
+		)
+		(pin "1"
+			(uuid "02e155a0-f27e-4412-85e8-eda8c7043371")
+		)
+		(pin "16"
+			(uuid "4af414ac-623c-4ae0-8b3d-ffe0bb60fd9b")
+		)
+		(pin "3"
+			(uuid "46f8bf10-dba5-4a0c-9a90-e5c44d7d2f1d")
+		)
+		(pin "15"
+			(uuid "6f2b927d-d37b-4ddb-85c7-e00f8042fe99")
+		)
+		(pin "11"
+			(uuid "fe1a48dc-fc77-4932-a829-505c41ce3c4c")
+		)
+		(pin "14"
+			(uuid "a2e53596-cf88-480d-8be7-9e6fbe26f191")
+		)
+		(instances
+			(project ""
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8589,6 +10435,73 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:GND")
+		(at 167.64 237.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56bacf11-5363-4995-9ba4-90640d6d2566")
+		(property "Reference" "#PWR013"
+			(at 173.99 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 237.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7e8a61f-fffa-4ee2-aeba-fd87b21ae31f")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:YS-SK6812MINI-E")
 		(at 137.16 140.97 0)
 		(unit 1)
@@ -8874,6 +10787,76 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "LED37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:RESISTOR")
+		(at 157.48 222.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61bd90f9-4f9b-4256-a0fb-593d655f16bf")
+		(property "Reference" "R1"
+			(at 157.48 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 158.496 221.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "moketa:R_1206_3216"
+			(at 157.48 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96eaf418-0f24-4f99-b174-6f9c7c1e0a56")
+		)
+		(pin "1"
+			(uuid "bccb8a13-4f38-4a35-8861-952cf8fd5278")
+		)
+		(instances
+			(project ""
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9785,6 +11768,130 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:CONN_01x20")
+		(at 196.85 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bf62f2c-bca3-4391-87bc-36ff38545628")
+		(property "Reference" "J2"
+			(at 198.12 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 196.85 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "moketa:FFC_CMD_1x20_P0.5mm"
+			(at 196.85 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "a31de7c5-1b9f-423c-b85e-6166604eefcb")
+		)
+		(pin "20"
+			(uuid "a6aea420-d8c1-4983-bc57-8210241285e3")
+		)
+		(pin "19"
+			(uuid "413bcf10-06a9-45ee-bc50-6dbacc1c965b")
+		)
+		(pin "10"
+			(uuid "e72c8f80-c256-4bbb-9ee6-a6a6d4e39777")
+		)
+		(pin "12"
+			(uuid "f3311a5b-081f-4627-9505-393e5bcacb4f")
+		)
+		(pin "6"
+			(uuid "7627d4fc-3367-422b-847e-957625687b20")
+		)
+		(pin "9"
+			(uuid "68716e23-9ebc-45d7-95a9-39687a011fcf")
+		)
+		(pin "7"
+			(uuid "231c220d-1379-426f-bb2b-b5127ac71a23")
+		)
+		(pin "16"
+			(uuid "181215e2-d76a-4154-a2bb-5e73a2b9b3e9")
+		)
+		(pin "8"
+			(uuid "94b1cb6b-82e7-4f87-b732-e038df526209")
+		)
+		(pin "17"
+			(uuid "fbc61fe6-f0c2-44fa-b7d5-1c2d2f329fa8")
+		)
+		(pin "5"
+			(uuid "9a33a506-c944-40e5-9fd3-9eebad8d3877")
+		)
+		(pin "4"
+			(uuid "1bec0c9d-230b-48d1-ab6a-e08666976ebf")
+		)
+		(pin "15"
+			(uuid "1b979772-9ae4-4fad-a881-e7e93f6ff37a")
+		)
+		(pin "3"
+			(uuid "8840874f-21a6-4902-b7cf-e9083a192f1c")
+		)
+		(pin "2"
+			(uuid "14ee0933-5fe3-4b31-a762-d9b8ef8d537a")
+		)
+		(pin "11"
+			(uuid "600e990a-0682-449c-870d-bf0ab9c2302d")
+		)
+		(pin "18"
+			(uuid "3a4283a0-89dc-454f-96ca-affd5fb1d27b")
+		)
+		(pin "1"
+			(uuid "78cac743-a343-4374-8105-fda1c387ab57")
+		)
+		(pin "13"
+			(uuid "743672d9-5277-4c1f-81c4-e00ba6d3e989")
+		)
+		(instances
+			(project ""
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:YS-SK6812MINI-E")
 		(at 182.88 119.38 180)
 		(unit 1)
@@ -10364,6 +12471,76 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:RESISTOR")
+		(at 157.48 237.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a18cc40-2b18-416f-ab2f-c05b04b8c986")
+		(property "Reference" "R3"
+			(at 157.48 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 158.496 236.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "moketa:R_1206_3216"
+			(at 157.48 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6713b45-b484-4d90-bd51-a5822fa1c481")
+		)
+		(pin "1"
+			(uuid "fe3afb54-f5e1-46a1-9219-85e5d5f571bf")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:GND")
 		(at 55.88 162.56 0)
 		(unit 1)
@@ -10567,6 +12744,76 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:LED")
+		(at 165.1 246.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98125e6a-b8e0-4647-9fda-560a5f7f9d16")
+		(property "Reference" "D46"
+			(at 165.0365 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 169.545 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "moketa:LED_1206"
+			(at 165.1 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b55f2362-74c5-4e7c-8c9d-0b72f92ee848")
+		)
+		(pin "1"
+			(uuid "e2e28e3e-8054-4ab2-97d7-71427a7b5511")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -10927,6 +13174,73 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:GND")
+		(at 167.64 222.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f9da696-17d2-49eb-8c2a-4c0f84320dc7")
+		(property "Reference" "#PWR011"
+			(at 173.99 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 222.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "357a297c-6248-4c38-9f4f-be7e8eadc30d")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -13045,6 +15359,76 @@
 		)
 	)
 	(symbol
+		(lib_id "moketa:LED")
+		(at 165.1 222.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d60dce86-5c13-42c7-aaf1-ee1a2d186416")
+		(property "Reference" "D43"
+			(at 165.0365 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 169.545 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "moketa:LED_1206"
+			(at 165.1 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7796b334-8aa2-49d5-a4e4-f15baa040ceb")
+		)
+		(pin "1"
+			(uuid "3c1f6f27-f272-4a06-8ab6-8b32a9a3d99e")
+		)
+		(instances
+			(project ""
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "moketa:Diode")
 		(at 85.09 74.93 0)
 		(unit 1)
@@ -14172,6 +16556,146 @@
 			(project ""
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:RESISTOR")
+		(at 157.48 229.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee1aa383-a5ae-467c-b434-00b75a0e1727")
+		(property "Reference" "R2"
+			(at 157.48 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 158.496 229.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "moketa:R_1206_3216"
+			(at 157.48 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c06a3918-421a-47f1-9b3f-4e8bfeab87c8")
+		)
+		(pin "1"
+			(uuid "a496546f-0955-4734-8f39-b1175569f90e")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:LED")
+		(at 165.1 237.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee4c6765-1791-4041-8e80-622c24ce8226")
+		(property "Reference" "D45"
+			(at 165.0365 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 169.545 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "moketa:LED_1206"
+			(at 165.1 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0091e45-b5a2-40d8-8f63-26a8b542dfeb")
+		)
+		(pin "1"
+			(uuid "9d5f0043-a76d-4c11-bb91-96b1f356567e")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "D45")
 					(unit 1)
 				)
 			)
