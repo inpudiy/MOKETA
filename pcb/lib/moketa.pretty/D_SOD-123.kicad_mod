@@ -55,44 +55,26 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.42 -0.545)
-		(end 0.42 0)
+		(start 0.3534 0.488792)
+		(end 0.3534 -0.488792)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "aab9c195-7d3e-4041-baea-60ade524539b")
+		(uuid "bd957891-d74a-4f5e-a040-d6a0c4c6fa69")
 	)
-	(fp_line
-		(start -0.42 0.545)
-		(end -0.42 -0.545)
+	(fp_poly
+		(pts
+			(xy -0.3784 0.479197) (xy -0.3784 -0.488792) (xy 0.3534 -0.000018)
+		)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
+		(fill yes)
 		(layer "B.SilkS")
-		(uuid "cad1c4a4-139c-4d65-b476-8b67e315ca0d")
-	)
-	(fp_line
-		(start 0.42 0)
-		(end -0.42 0.545)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "2b62dd2d-ceb1-42b1-9c83-472596097a59")
-	)
-	(fp_line
-		(start 0.42 0.545)
-		(end 0.42 -0.545)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "004ff8fa-a159-4299-8de8-12f049914d0d")
+		(uuid "b261b211-6923-409c-90c0-872fa0214736")
 	)
 	(fp_rect
 		(start -2.35 -1.15)
@@ -105,24 +87,22 @@
 		(layer "F.Fab")
 		(uuid "11b126a4-d888-4e59-90c5-7906f9115d4d")
 	)
-	(pad "1" smd oval
+	(pad "1" smd roundrect
 		(at 1.65 0 180)
 		(size 1.2 1.2)
 		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.2083333333)
 		(uuid "8ca7cf40-9887-436c-bea9-a303f4626eef")
 	)
-	(pad "2" smd roundrect
+	(pad "2" smd oval
 		(at -1.65 0 180)
 		(size 1.2 1.2)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(roundrect_rratio 0.2083333333)
 		(uuid "6df6f7bc-2215-4f91-8920-244285a2df55")
 	)
 	(group ""
-		(uuid "8ed0f3c9-88cf-4c1e-81a9-f2a101b5de1d")
-		(members "004ff8fa-a159-4299-8de8-12f049914d0d" "2b62dd2d-ceb1-42b1-9c83-472596097a59"
-			"aab9c195-7d3e-4041-baea-60ade524539b" "cad1c4a4-139c-4d65-b476-8b67e315ca0d"
-		)
+		(uuid "f00b4aa5-5e01-4a17-b687-78e18c18fa30")
+		(members "b261b211-6923-409c-90c0-872fa0214736" "bd957891-d74a-4f5e-a040-d6a0c4c6fa69")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/step/D_SOD-123.step"
