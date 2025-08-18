@@ -2639,7 +2639,7 @@
 	)
 	(rectangle
 		(start 103.378 219.202)
-		(end 135.636 248.92)
+		(end 135.636 254)
 		(stroke
 			(width 0)
 			(type default)
@@ -2697,7 +2697,7 @@
 	)
 	(text "Power Control\n"
 		(exclude_from_sim no)
-		(at 125.984 246.888 0)
+		(at 128.524 252.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3320,10 +3320,6 @@
 		(uuid "f8c19eff-6e41-4fd8-91be-90c06d6969ad")
 	)
 	(no_connect
-		(at 115.57 242.57)
-		(uuid "04e344fd-e813-42d2-80ff-04f658bdff14")
-	)
-	(no_connect
 		(at 125.73 242.57)
 		(uuid "1e8a3042-7d81-4ecb-bce1-d34f4896b272")
 	)
@@ -3923,6 +3919,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 242.57) (xy 116.84 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4845b744-2d99-4d1b-ab67-438c3fdb4f66")
+	)
+	(wire
+		(pts
 			(xy 63.5 148.59) (xy 78.74 148.59)
 		)
 		(stroke
@@ -4220,6 +4226,16 @@
 			(type default)
 		)
 		(uuid "697f44a1-fbc6-4f03-beed-7893ae08ee22")
+	)
+	(wire
+		(pts
+			(xy 116.84 242.57) (xy 116.84 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a171065-e12d-4c29-b0bd-0a96c6c85362")
 	)
 	(wire
 		(pts
@@ -11984,6 +12000,71 @@
 			(project "MOKETA"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
 					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "moketa:GND")
+		(at 116.84 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a52f3af-e9f0-426c-9f16-b5b74db8229c")
+		(property "Reference" "#PWR017"
+			(at 116.84 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 117.094 249.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42d36e95-e604-41c2-9368-0ae444c4f51f")
+		)
+		(instances
+			(project "MOKETA"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
