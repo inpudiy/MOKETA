@@ -7240,6 +7240,73 @@
 			)
 		)
 	)
+	(footprint "moketa:M2 Hole"
+		(layer "F.Cu")
+		(uuid "639af35f-2a73-4533-ad3a-dc24226b98d4")
+		(at 190.721372 105.849998)
+		(property "Reference" "MH"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "32230943-9f92-4ce4-be77-7b51d6bff53c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Untitled"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76262b05-07a9-40a9-8458-1fc2ac602f5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "232a6b1b-3c69-4fb2-bfd7-dd9c436be9aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97c7c2dc-5377-4471-9839-344d743cfffb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(pad "" thru_hole circle
+			(at 0 0 180)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "9b8266f5-f25e-4f3b-be9d-88ea7c48fb41")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "moketa:YS-SK6812MINI-E"
 		(layer "F.Cu")
 		(uuid "63e8ceb3-79eb-4dcf-aed6-414d0a42e659")
@@ -20028,6 +20095,73 @@
 			)
 		)
 	)
+	(footprint "moketa:M2 Hole"
+		(layer "F.Cu")
+		(uuid "ea605f59-f804-4552-8d34-b8b68726f924")
+		(at 215.67009 105.880245)
+		(property "Reference" "MH"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9b4cb3c1-a219-4154-b777-ec84f4f39d29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Untitled"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dcf8e57-9a6f-4303-910c-fe975927147e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c53c61a-aba6-4fe1-b34b-08c9f387640b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30ff538c-b1bb-4641-b018-4a76a216fdf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(pad "" thru_hole circle
+			(at 0 0 180)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "559e19ed-3f5c-4e54-af4c-38a0f54295bd")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "moketa:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "eb1b3a5a-ec37-4085-9254-cc19041c90d4")
@@ -26844,12 +26978,28 @@
 		(uuid "e3ee37d5-4285-4a38-9f5c-0507d6ed2585")
 	)
 	(segment
-		(start 197.79604 93.45)
+		(start 213.15 93.25)
+		(end 197.99604 93.25)
+		(width 0.4)
+		(layer "B.Cu")
+		(net 91)
+		(uuid "151bc1c2-4cc5-4aaf-8736-3286d3415b42")
+	)
+	(segment
+		(start 197.99604 93.25)
 		(end 195.588193 95.657847)
 		(width 0.4)
 		(layer "B.Cu")
 		(net 91)
-		(uuid "0a8778dc-d14c-439c-b1d2-41412b8edd71")
+		(uuid "7a3ab402-3ab3-4148-959a-2035114e9378")
+	)
+	(segment
+		(start 215.115125 95.215125)
+		(end 213.15 93.25)
+		(width 0.4)
+		(layer "B.Cu")
+		(net 91)
+		(uuid "a9b86805-0f7d-4bed-9ab5-8d2dd3c69fe7")
 	)
 	(segment
 		(start 218.14573 95.215125)
@@ -26857,23 +27007,7 @@
 		(width 0.4)
 		(layer "B.Cu")
 		(net 91)
-		(uuid "0fa669da-3559-42f6-bd73-1286e692ac60")
-	)
-	(segment
-		(start 213.35 93.45)
-		(end 197.79604 93.45)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 91)
-		(uuid "4fa777d0-b54c-49e4-b8be-e19092567774")
-	)
-	(segment
-		(start 215.115125 95.215125)
-		(end 213.35 93.45)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 91)
-		(uuid "89df8bb5-41fc-40a9-90cf-ccd4605c38b1")
+		(uuid "b98ee48c-d176-4877-8aee-33e1828d9e40")
 	)
 	(segment
 		(start 330.08675 119.356268)
