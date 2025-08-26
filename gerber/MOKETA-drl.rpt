@@ -1,5 +1,5 @@
 Drill report for MOKETA.kicad_pcb
-Created on 2025-08-25T00:55:53+0300
+Created on 2025-08-26T18:51:55+0300
 
 Copper Layer Stackup:
     =============================================================
@@ -10,12 +10,12 @@ Copper Layer Stackup:
 Drill file 'MOKETA-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.300mm  0.0118"  (89 holes)
+    T1  0.300mm  0.0118"  (88 holes)
     T2  1.000mm  0.0394"  (2 holes)
     T3  1.500mm  0.0591"  (24 holes)
     T4  2.200mm  0.0866"  (6 holes)
 
-    Total plated holes count 121
+    Total plated holes count 120
 
 
 Drill file 'MOKETA-NPTH.drl' contains
