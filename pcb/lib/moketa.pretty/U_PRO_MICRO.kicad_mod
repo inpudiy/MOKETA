@@ -294,15 +294,15 @@
 		(uuid "d51eac91-7a06-4210-8572-c7315df74a16")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/step/ProMicro.step"
+	(model "${KIPRJMOD}/lib/step/SuperMini_FlatConnector.step"
 		(offset
-			(xyz 9 -16.5 3.5)
+			(xyz 0 0 4)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 180 -0)
+			(xyz -0 -180 -0)
 		)
 	)
 )

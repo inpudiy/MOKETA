@@ -82,4 +82,15 @@
 		(uuid "b4b0fc1b-551a-4fa5-9399-947729ab5bc0")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/step/SW_SPST_B3U-1000P-B.step"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
 )
