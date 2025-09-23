@@ -56,10 +56,10 @@
 	(attr through_hole)
 	(fp_poly
 		(pts
-			(xy 3.7 0.75) (xy 3.839 0.611) (xy 3.839 0.889)
+			(xy 3.9 0.75) (xy 4.039 0.611) (xy 4.039 0.889)
 		)
 		(stroke
-			(width 0.1)
+			(width 0.4)
 			(type solid)
 		)
 		(fill yes)
