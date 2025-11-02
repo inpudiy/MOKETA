@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "moketa")(type "KiCad")(uri "${KIPRJMOD}/lib/moketa.kicad_sym")(options "")(descr ""))
-)
