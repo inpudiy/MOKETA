@@ -14,6 +14,14 @@ MOKETA is an open-source unibody 42-key wireless keyboard with MX switches, per-
 - Pro Micro compatible microcontroller with hot-swap (nice!nano, SuperMini NRF52840, Mikoto, or others)
 - Optimized for wireless use: hardware power switch, reset button, battery solder pads, and ZMK firmware
 
+## PCB Image
+
+![](image/full.webp)
+![](image/led.webp)
+![](image/hotswap.webp)
+![](image/diode.webp)
+
+## Bill of materials
 
 | Component                                                    | Qty/Pin |
 | ------------------------------------------------------------ | ------- |
@@ -26,10 +34,3 @@ MOKETA is an open-source unibody 42-key wireless keyboard with MX switches, per-
 | PG1511 hot-swap socket                                       | 42      |
 | Diode 1N4148W (SOD-123)                                      | 42      |
 | MX switches                                                  | 42      |
-
-## PCB Image
-
-![](image/full.webp)
-![](image/led.webp)
-![](image/hotswap.webp)
-![](image/diode.webp)
